@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+  <classpathentry kind="src" path="src/test/java" output="target/test-classes" including="**/*.java"/>
+  <classpathentry kind="src" path="src/test/resources" output="target/test-classes" excluding="**/*.java"/>
+  <classpathentry kind="src" path="src/main/java" including="**/*.java"/>
+  <classpathentry kind="src" path="target/src/main/java" including="**/*.java"/>
+  <classpathentry kind="src" path="src/main/resources" excluding="**/*.java"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="var" path="M2_REPO/javax/xml/bind/jaxb-api/2.2.3/jaxb-api-2.2.3.jar" sourcepath="M2_REPO/javax/xml/bind/jaxb-api/2.2.3/jaxb-api-2.2.3-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/javax/xml/bind/jaxb-api/2.2.3/jaxb-api-2.2.3-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/javax/xml/soap/saaj-api/1.3.4/saaj-api-1.3.4.jar" sourcepath="M2_REPO/javax/xml/soap/saaj-api/1.3.4/saaj-api-1.3.4-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/javax/xml/soap/saaj-api/1.3.4/saaj-api-1.3.4-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.jar" sourcepath="M2_REPO/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="var" path="M2_REPO/org/andromda/cartridges/andromda-spring-cartridge/3.4/andromda-spring-cartridge-3.4.jar" sourcepath="M2_REPO/org/andromda/cartridges/andromda-spring-cartridge/3.4/andromda-spring-cartridge-3.4-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/org/andromda/cartridges/andromda-spring-cartridge/3.4/andromda-spring-cartridge-3.4-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/andromda/andromda-core/3.4/andromda-core-3.4.jar" sourcepath="M2_REPO/org/andromda/andromda-core/3.4/andromda-core-3.4-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/org/andromda/andromda-core/3.4/andromda-core-3.4-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar" sourcepath="M2_REPO/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/commons-digester/commons-digester/2.1/commons-digester-2.1.jar" sourcepath="M2_REPO/commons-digester/commons-digester/2.1/commons-digester-2.1-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/commons-digester/commons-digester/2.1/commons-digester-2.1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.8.3.jar" sourcepath="M2_REPO/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.8.3-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.8.3-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar" sourcepath="M2_REPO/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/commons-lang/commons-lang/2.6/commons-lang-2.6.jar" sourcepath="M2_REPO/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/commons-io/commons-io/2.4/commons-io-2.4.jar" sourcepath="M2_REPO/commons-io/commons-io/2.4/commons-io-2.4-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/de/plushnikov/doctor-jim/1.0/doctor-jim-1.0.jar" sourcepath="M2_REPO/de/plushnikov/doctor-jim/1.0/doctor-jim-1.0-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/de/plushnikov/doctor-jim/1.0/doctor-jim-1.0-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/andromda/andromda-utils/3.4/andromda-utils-3.4.jar" sourcepath="M2_REPO/org/andromda/andromda-utils/3.4/andromda-utils-3.4-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/org/andromda/andromda-utils/3.4/andromda-utils-3.4-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/log4j/log4j/1.2.17/log4j-1.2.17.jar" sourcepath="M2_REPO/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/andromda/translationlibraries/andromda-ocl-translation-core/3.4/andromda-ocl-translation-core-3.4.jar" sourcepath="M2_REPO/org/andromda/translationlibraries/andromda-ocl-translation-core/3.4/andromda-ocl-translation-core-3.4-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/org/andromda/translationlibraries/andromda-ocl-translation-core/3.4/andromda-ocl-translation-core-3.4-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/andromda/translationlibraries/andromda-ocl-validation-library/3.4/andromda-ocl-validation-library-3.4.jar" sourcepath="M2_REPO/org/andromda/translationlibraries/andromda-ocl-validation-library/3.4/andromda-ocl-validation-library-3.4-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/org/andromda/translationlibraries/andromda-ocl-validation-library/3.4/andromda-ocl-validation-library-3.4-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/andromda/metafacades/andromda-metafacades-uml/3.4/andromda-metafacades-uml-3.4.jar" sourcepath="M2_REPO/org/andromda/metafacades/andromda-metafacades-uml/3.4/andromda-metafacades-uml-3.4-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/org/andromda/metafacades/andromda-metafacades-uml/3.4/andromda-metafacades-uml-3.4-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/junit/junit/4.10/junit-4.10.jar" sourcepath="M2_REPO/junit/junit/4.10/junit-4.10-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/junit/junit/4.10/junit-4.10-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar" sourcepath="M2_REPO/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/andromda/cartridges/andromda-hibernate-cartridge/3.4/andromda-hibernate-cartridge-3.4.jar" sourcepath="M2_REPO/org/andromda/cartridges/andromda-hibernate-cartridge/3.4/andromda-hibernate-cartridge-3.4-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/org/andromda/cartridges/andromda-hibernate-cartridge/3.4/andromda-hibernate-cartridge-3.4-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/andromda/cartridges/andromda-webservice-cartridge/3.4/andromda-webservice-cartridge-3.4.jar" sourcepath="M2_REPO/org/andromda/cartridges/andromda-webservice-cartridge/3.4/andromda-webservice-cartridge-3.4-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/org/andromda/cartridges/andromda-webservice-cartridge/3.4/andromda-webservice-cartridge-3.4-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/andromda/cartridges/andromda-java-cartridge/3.4/andromda-java-cartridge-3.4.jar" sourcepath="M2_REPO/org/andromda/cartridges/andromda-java-cartridge/3.4/andromda-java-cartridge-3.4-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/org/andromda/cartridges/andromda-java-cartridge/3.4/andromda-java-cartridge-3.4-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/apache/cxf/cxf-bundle/2.5.2/cxf-bundle-2.5.2.jar" sourcepath="M2_REPO/org/apache/cxf/cxf-bundle/2.5.2/cxf-bundle-2.5.2-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/org/apache/cxf/cxf-bundle/2.5.2/cxf-bundle-2.5.2-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/apache/ws/xmlschema/xmlschema-core/2.0.1/xmlschema-core-2.0.1.jar" sourcepath="M2_REPO/org/apache/ws/xmlschema/xmlschema-core/2.0.1/xmlschema-core-2.0.1-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/org/apache/ws/xmlschema/xmlschema-core/2.0.1/xmlschema-core-2.0.1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/codehaus/woodstox/woodstox-core-asl/4.1.1/woodstox-core-asl-4.1.1.jar" sourcepath="M2_REPO/org/codehaus/woodstox/woodstox-core-asl/4.1.1/woodstox-core-asl-4.1.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/codehaus/woodstox/stax2-api/3.1.1/stax2-api-3.1.1.jar" sourcepath="M2_REPO/org/codehaus/woodstox/stax2-api/3.1.1/stax2-api-3.1.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/geronimo/specs/geronimo-stax-api_1.0_spec/1.0.1/geronimo-stax-api_1.0_spec-1.0.1.jar" sourcepath="M2_REPO/org/apache/geronimo/specs/geronimo-stax-api_1.0_spec/1.0.1/geronimo-stax-api_1.0_spec-1.0.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/geronimo/specs/geronimo-annotation_1.0_spec/1.1.1/geronimo-annotation_1.0_spec-1.1.1.jar" sourcepath="M2_REPO/org/apache/geronimo/specs/geronimo-annotation_1.0_spec/1.1.1/geronimo-annotation_1.0_spec-1.1.1-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/org/apache/geronimo/specs/geronimo-annotation_1.0_spec/1.1.1/geronimo-annotation_1.0_spec-1.1.1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/apache/velocity/velocity/1.6.4/velocity-1.6.4.jar" sourcepath="M2_REPO/org/apache/velocity/velocity/1.6.4/velocity-1.6.4-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/org/apache/velocity/velocity/1.6.4/velocity-1.6.4-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/oro/oro/2.0.8/oro-2.0.8.jar" sourcepath="M2_REPO/oro/oro/2.0.8/oro-2.0.8-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/wsdl4j/wsdl4j/1.6.2/wsdl4j-1.6.2.jar" sourcepath="M2_REPO/wsdl4j/wsdl4j/1.6.2/wsdl4j-1.6.2-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/sun/xml/bind/jaxb-xjc/2.2.7-b41/jaxb-xjc-2.2.7-b41.jar" sourcepath="M2_REPO/com/sun/xml/bind/jaxb-xjc/2.2.7-b41/jaxb-xjc-2.2.7-b41-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/com/sun/xml/bind/jaxb-xjc/2.2.7-b41/jaxb-xjc-2.2.7-b41-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/com/sun/xml/bind/jaxb-impl/2.2.4-1/jaxb-impl-2.2.4-1.jar" sourcepath="M2_REPO/com/sun/xml/bind/jaxb-impl/2.2.4-1/jaxb-impl-2.2.4-1-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.4-1/jaxb-impl-2.2.4-1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/apache/neethi/neethi/3.0.1/neethi-3.0.1.jar" sourcepath="M2_REPO/org/apache/neethi/neethi/3.0.1/neethi-3.0.1-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/org/apache/neethi/neethi/3.0.1/neethi-3.0.1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/apache/geronimo/specs/geronimo-activation_1.1_spec/1.1/geronimo-activation_1.1_spec-1.1.jar" sourcepath="M2_REPO/org/apache/geronimo/specs/geronimo-activation_1.1_spec/1.1/geronimo-activation_1.1_spec-1.1-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/org/apache/geronimo/specs/geronimo-activation_1.1_spec/1.1/geronimo-activation_1.1_spec-1.1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/apache/geronimo/specs/geronimo-javamail_1.4_spec/1.7.1/geronimo-javamail_1.4_spec-1.7.1.jar" sourcepath="M2_REPO/org/apache/geronimo/specs/geronimo-javamail_1.4_spec/1.7.1/geronimo-javamail_1.4_spec-1.7.1-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/org/apache/geronimo/specs/geronimo-javamail_1.4_spec/1.7.1/geronimo-javamail_1.4_spec-1.7.1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/apache/geronimo/specs/geronimo-ws-metadata_2.0_spec/1.1.3/geronimo-ws-metadata_2.0_spec-1.1.3.jar" sourcepath="M2_REPO/org/apache/geronimo/specs/geronimo-ws-metadata_2.0_spec/1.1.3/geronimo-ws-metadata_2.0_spec-1.1.3-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/org/apache/geronimo/specs/geronimo-ws-metadata_2.0_spec/1.1.3/geronimo-ws-metadata_2.0_spec-1.1.3-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/apache/geronimo/specs/geronimo-jaxws_2.2_spec/1.1/geronimo-jaxws_2.2_spec-1.1.jar" sourcepath="M2_REPO/org/apache/geronimo/specs/geronimo-jaxws_2.2_spec/1.1/geronimo-jaxws_2.2_spec-1.1-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/org/apache/geronimo/specs/geronimo-jaxws_2.2_spec/1.1/geronimo-jaxws_2.2_spec-1.1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/xml-resolver/xml-resolver/1.2/xml-resolver-1.2.jar" sourcepath="M2_REPO/xml-resolver/xml-resolver/1.2/xml-resolver-1.2-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/asm/asm/3.3/asm-3.3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-web/3.1.2.RELEASE/spring-web-3.1.2.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-web/3.1.2.RELEASE/spring-web-3.1.2.RELEASE-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/aopalliance/aopalliance/1.0/aopalliance-1.0.jar" sourcepath="M2_REPO/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-beans/3.1.2.RELEASE/spring-beans-3.1.2.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-beans/3.1.2.RELEASE/spring-beans-3.1.2.RELEASE-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-core/3.1.2.RELEASE/spring-core-3.1.2.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-core/3.1.2.RELEASE/spring-core-3.1.2.RELEASE-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-asm/3.1.2.RELEASE/spring-asm-3.1.2.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-asm/3.1.2.RELEASE/spring-asm-3.1.2.RELEASE-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-context/3.1.2.RELEASE/spring-context-3.1.2.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-context/3.1.2.RELEASE/spring-context-3.1.2.RELEASE-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-aop/3.1.2.RELEASE/spring-aop-3.1.2.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-aop/3.1.2.RELEASE/spring-aop-3.1.2.RELEASE-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-expression/3.1.2.RELEASE/spring-expression-3.1.2.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-expression/3.1.2.RELEASE/spring-expression-3.1.2.RELEASE-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/sun/xml/messaging/saaj/saaj-impl/1.3.12/saaj-impl-1.3.12.jar" sourcepath="M2_REPO/com/sun/xml/messaging/saaj/saaj-impl/1.3.12/saaj-impl-1.3.12-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/com/sun/xml/messaging/saaj/saaj-impl/1.3.12/saaj-impl-1.3.12-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/jvnet/mimepull/1.4/mimepull-1.4.jar"/>
+  <classpathentry kind="var" path="M2_REPO/antlr/antlr/2.7.7/antlr-2.7.7.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/xmlbeans/xmlbeans/2.5.0/xmlbeans-2.5.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/codehaus/jettison/jettison/1.3.1/jettison-1.3.1.jar" sourcepath="M2_REPO/org/codehaus/jettison/jettison/1.3.1/jettison-1.3.1-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/org/codehaus/jettison/jettison/1.3.1/jettison-1.3.1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-server/8.1.6.v20120903/jetty-server-8.1.6.v20120903.jar" sourcepath="M2_REPO/org/eclipse/jetty/jetty-server/8.1.6.v20120903/jetty-server-8.1.6.v20120903-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/org/eclipse/jetty/jetty-server/8.1.6.v20120903/jetty-server-8.1.6.v20120903-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar" sourcepath="M2_REPO/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-continuation/7.5.4.v20111024/jetty-continuation-7.5.4.v20111024.jar" sourcepath="M2_REPO/org/eclipse/jetty/jetty-continuation/7.5.4.v20111024/jetty-continuation-7.5.4.v20111024-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/org/eclipse/jetty/jetty-continuation/7.5.4.v20111024/jetty-continuation-7.5.4.v20111024-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-http/7.5.4.v20111024/jetty-http-7.5.4.v20111024.jar" sourcepath="M2_REPO/org/eclipse/jetty/jetty-http/7.5.4.v20111024/jetty-http-7.5.4.v20111024-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/org/eclipse/jetty/jetty-http/7.5.4.v20111024/jetty-http-7.5.4.v20111024-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-io/7.5.4.v20111024/jetty-io-7.5.4.v20111024.jar" sourcepath="M2_REPO/org/eclipse/jetty/jetty-io/7.5.4.v20111024/jetty-io-7.5.4.v20111024-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/org/eclipse/jetty/jetty-io/7.5.4.v20111024/jetty-io-7.5.4.v20111024-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-util/7.5.4.v20111024/jetty-util-7.5.4.v20111024.jar" sourcepath="M2_REPO/org/eclipse/jetty/jetty-util/7.5.4.v20111024/jetty-util-7.5.4.v20111024-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/org/eclipse/jetty/jetty-util/7.5.4.v20111024/jetty-util-7.5.4.v20111024-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-security/7.5.4.v20111024/jetty-security-7.5.4.v20111024.jar" sourcepath="M2_REPO/org/eclipse/jetty/jetty-security/7.5.4.v20111024/jetty-security-7.5.4.v20111024-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/org/eclipse/jetty/jetty-security/7.5.4.v20111024/jetty-security-7.5.4.v20111024-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-api/1.7.0/slf4j-api-1.7.0.jar" sourcepath="M2_REPO/org/slf4j/slf4j-api/1.7.0/slf4j-api-1.7.0-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/org/slf4j/slf4j-api/1.7.0/slf4j-api-1.7.0-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/apache/geronimo/specs/geronimo-servlet_2.5_spec/1.1.2/geronimo-servlet_2.5_spec-1.1.2.jar" sourcepath="M2_REPO/org/apache/geronimo/specs/geronimo-servlet_2.5_spec/1.1.2/geronimo-servlet_2.5_spec-1.1.2-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/org/apache/geronimo/specs/geronimo-servlet_2.5_spec/1.1.2/geronimo-servlet_2.5_spec-1.1.2-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1.jar" sourcepath="M2_REPO/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-tx/3.0.6.RELEASE/spring-tx-3.0.6.RELEASE.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/codehaus/jra/jra/1.0-alpha-4/jra-1.0-alpha-4.jar" sourcepath="M2_REPO/org/codehaus/jra/jra/1.0-alpha-4/jra-1.0-alpha-4-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/org/codehaus/jra/jra/1.0-alpha-4/jra-1.0-alpha-4-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/rhino/js/1.7R2/js-1.7R2.jar" sourcepath="M2_REPO/rhino/js/1.7R2/js-1.7R2-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/rhino/js/1.7R2/js-1.7R2-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/apache/ws/security/wss4j/1.6.4/wss4j-1.6.4.jar" sourcepath="M2_REPO/org/apache/ws/security/wss4j/1.6.4/wss4j-1.6.4-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/org/apache/ws/security/wss4j/1.6.4/wss4j-1.6.4-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/apache/santuario/xmlsec/1.4.6/xmlsec-1.4.6.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/opensaml/opensaml/2.5.1-1/opensaml-2.5.1-1.jar" sourcepath="M2_REPO/org/opensaml/opensaml/2.5.1-1/opensaml-2.5.1-1-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/org/opensaml/opensaml/2.5.1-1/opensaml-2.5.1-1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/opensaml/openws/1.4.2-1/openws-1.4.2-1.jar" sourcepath="M2_REPO/org/opensaml/openws/1.4.2-1/openws-1.4.2-1-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/org/opensaml/openws/1.4.2-1/openws-1.4.2-1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/opensaml/xmltooling/1.3.2-1/xmltooling-1.3.2-1.jar" sourcepath="M2_REPO/org/opensaml/xmltooling/1.3.2-1/xmltooling-1.3.2-1-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/org/opensaml/xmltooling/1.3.2-1/xmltooling-1.3.2-1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/joda-time/joda-time/1.6.2/joda-time-1.6.2.jar" sourcepath="M2_REPO/joda-time/joda-time/1.6.2/joda-time-1.6.2-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Ayman/.m2/repository/joda-time/joda-time/1.6.2/joda-time-1.6.2-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/xalan/xalan/2.7.1/xalan-2.7.1.jar" sourcepath="M2_REPO/xalan/xalan/2.7.1/xalan-2.7.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/xalan/serializer/2.7.1/serializer-2.7.1.jar"/>
+</classpath>

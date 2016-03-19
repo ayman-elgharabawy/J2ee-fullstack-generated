@@ -1,0 +1,59 @@
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+	xmlns:beans="http://www.springframework.org/schema/beans" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+	http://www.springframework.org/schema/security
+	http://www.springframework.org/schema/security/spring-security-3.1.xsd">
+ 
+	<http auto-config="true" use-expressions="true" create-session="ifRequired">
+		<intercept-url pattern="/login/*" access="permitAll" />
+		<intercept-url pattern="/login/images/*" access="permitAll" />
+        <intercept-url pattern="/login/style/*" access="permitAll" />
+
+		<intercept-url pattern="/log*" access="permitAll" />
+		<intercept-url pattern="/login/j_spring_security_check" access="permitAll" />
+		
+        <intercept-url pattern="/css/main.css" access="permitAll" />
+		
+        <intercept-url pattern="/resources/**" access="permitAll" />
+        <intercept-url pattern="/com/bluebz/wefix/warehouse/domain/crud/**" access="hasAnyRole('ROLE_ADMIN','ROLE_CALLCENTER_AGENT','ROLE_ENGINEER','ROLE_TECHNICIAN','ROLE_CALLCENTER_REVIEWER','ROLE_WAREHOUSE_CLERK','ROLE_PURCHASING_EMPLOYEE')" />
+		<intercept-url pattern="/**" access="hasAnyRole('ROLE_ADMIN','ROLE_CALLCENTER_AGENT','ROLE_ENGINEER','ROLE_TECHNICIAN','ROLE_CALLCENTER_REVIEWER','ROLE_WAREHOUSE_CLERK','ROLE_PURCHASING_EMPLOYEE')" />
+		
+		<form-login 
+		    login-page="/login/login-form.jsp"
+            login-processing-url="/login/j_spring_security_check"			
+		    default-target-url="/" 
+			authentication-failure-url="/login/login-form.jsp?error" 
+			username-parameter="j_username"
+			password-parameter="j_password" />
+		<logout  logout-url="/j_spring_security_logout" logout-success-url="/login/login-form.jsp?logout" delete-cookies="JSESSIONID"
+        invalidate-session="true" />
+	<remember-me  token-validity-seconds="1209600"	 data-source-ref="jdbcDataSource" />
+	</http>
+ 
+	<authentication-manager>
+	<!--
+		<authentication-provider>
+		  <user-service>
+			<user name="ayman" password="ayman" authorities="ROLE_USER" />
+		  </user-service>
+		</authentication-provider>  -->
+  <authentication-provider>  
+   <jdbc-user-service data-source-ref="jdbcDataSource"  
+    users-by-username-query="SELECT username,password,'true' FROM user WHERE username = ?"  
+    authorities-by-username-query="select u.username, a.authority from user u,authorities a where u.id=a.username_fk and u.username =?  " />  
+  </authentication-provider>  
+	</authentication-manager>
+ 
+
+   
+	<beans:bean id="jdbcDataSource"
+    class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+    <beans:property name="driverClassName" value="com.mysql.jdbc.Driver" />
+    <beans:property name="url" value="jdbc:mysql://localhost:3306/wefix" />
+	<beans:property name="username" value="root" />
+    <beans:property name="password" value="root" />
+    </beans:bean>
+ 
+</beans:beans>

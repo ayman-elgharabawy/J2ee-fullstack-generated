@@ -1,0 +1,8 @@
+2016-03-19 08:17:14,245 INFO  [com.vis.oubl.service.SearchServiceSEIImpl] SearchServiceSEIImpl.updateCustomer: Executing with: com.vis.oubl.vo.My010CustomerVO@64eff0[id=1,firstName=firstName,lastName=lastName,middleName=middleName,identityNumber=1,insuranceNumber=1,address=address,mobileNumber=1,telephoneNumber=1,nationality=nationality,type=type]
+2016-03-19 08:17:14,261 INFO  [com.vis.oubl.service.SearchServiceSEIImpl] SearchServiceSEIImplupdateCustomer: Returning SearchService.updateCustomer: 1
+2016-03-19 08:17:14,268 INFO  [com.vis.oubl.service.SearchServiceSEIImpl] SearchServiceSEIImpl.deleteCustomer: Executing with: 1
+2016-03-19 08:17:14,269 INFO  [com.vis.oubl.service.SearchServiceSEIImpl] SearchServiceSEIImpldeleteCustomer: Returning SearchService.deleteCustomer: 1
+2016-03-19 08:17:14,273 INFO  [com.vis.oubl.service.SearchServiceSEIImpl] SearchServiceSEIImpl.customersQuery: Executing with: 
+2016-03-19 08:17:14,273 INFO  [com.vis.oubl.service.SearchServiceSEIImpl] SearchServiceSEIImplcustomersQuery: Returning SearchService.customersQuery: java.lang.Object@900079
+2016-03-19 08:17:14,288 INFO  [com.vis.oubl.service.SearchServiceSEIImpl] SearchServiceSEIImpl.createCustomer: Executing with: com.vis.oubl.vo.My010CustomerVO@c45f52[id=1,firstName=firstName,lastName=lastName,middleName=middleName,identityNumber=1,insuranceNumber=1,address=address,mobileNumber=1,telephoneNumber=1,nationality=nationality,type=type]
+2016-03-19 08:17:14,294 INFO  [com.vis.oubl.service.SearchServiceSEIImpl] SearchServiceSEIImplcreateCustomer: Returning SearchService.createCustomer: 1

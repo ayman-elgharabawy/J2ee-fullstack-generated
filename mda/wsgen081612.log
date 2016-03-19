@@ -1,0 +1,48 @@
+     [echo] running wsgen for each generated webservice class
+    [mkdir] Created dir: D:\PAG\PAG-OUBL\common\target\classes
+    [mkdir] Created dir: D:\PAG\PAG-OUBL\core\target\classes
+    [mkdir] Created dir: D:\PAG\PAG-OUBL\core\target\src\main\resources
+    [mkdir] Created dir: D:\PAG\PAG-OUBL\CXF\src\main\webapp\WEB-INF\lib
+    [mkdir] Created dir: D:\PAG\PAG-OUBL\CXF\src\main\webapp\WEB-INF\wsdl
+    [mkdir] Created dir: D:\PAG\PAG-OUBL\webservice\target\classes
+    [mkdir] Created dir: D:\PAG\PAG-OUBL\webservice\target\src\main\java
+
+wsgenjava:
+     [echo] running wsdlvalidator for AndroMDA generated wsdl for service SearchService
+     [java] wsdlvalidator -verbose D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/SearchService.wsdl
+     [java] wsdlvalidator - Apache CXF 2.5.2
+     [java] 
+     [java] Passed Validation : Valid WSDL 
+     [echo] running wsdl2java for service SearchService
+     [java] Loading FrontEnd jaxws ...
+     [java] Loading DataBinding jaxb ...
+     [java] wsdl2java -p http://service.oubl.vis.com/=com.vis.oubl.service -b D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/bindings/SearchService.xjb -d D:\PAG\PAG-OUBL\mda/../CXF/target/src/main/java -classdir D:\PAG\PAG-OUBL\mda/../CXF/src/main/webapp/WEB-INF/classes -all -allowElementReferences -verbose -exsh true -autoNameResolution D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/SearchService.wsdl
+     [java] wsdl2java - Apache CXF 2.5.2
+     [java] 
+
+wsgenjava:
+     [echo] running wsdlvalidator for AndroMDA generated wsdl for service MedicalHistoryService
+     [java] wsdlvalidator -verbose D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
+     [java] wsdlvalidator - Apache CXF 2.5.2
+     [java] 
+     [java] Passed Validation : Valid WSDL 
+     [echo] running wsdl2java for service MedicalHistoryService
+     [java] Loading FrontEnd jaxws ...
+     [java] Loading DataBinding jaxb ...
+     [java] wsdl2java -p http://service.oubl.vis.com/=com.vis.oubl.service -b D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/bindings/MedicalHistoryService.xjb -d D:\PAG\PAG-OUBL\mda/../CXF/target/src/main/java -classdir D:\PAG\PAG-OUBL\mda/../CXF/src/main/webapp/WEB-INF/classes -all -allowElementReferences -verbose -exsh true -autoNameResolution D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
+     [java] wsdl2java - Apache CXF 2.5.2
+     [java] 
+     [copy] Copying 1 file to D:\PAG\PAG-OUBL\common\target\src\main\java\com\vis\oubl\service
+     [copy] Copying D:\PAG\PAG-OUBL\CXF\target\src\main\java\com\vis\oubl\service\ObjectFactory.java to D:\PAG\PAG-OUBL\common\target\src\main\java\com\vis\oubl\service\ObjectFactory.java
+     [copy] Copying 4 files to D:\PAG\PAG-OUBL\common\target\src\main\java
+     [copy] Copying D:\PAG\PAG-OUBL\CXF\target\src\main\java\com\vis\oubl\vo\ObjectFactory.java to D:\PAG\PAG-OUBL\common\target\src\main\java\com\vis\oubl\vo\ObjectFactory.java
+     [copy] Copying D:\PAG\PAG-OUBL\CXF\target\src\main\java\org\w3\_2001\xmlschema\Adapter1.java to D:\PAG\PAG-OUBL\common\target\src\main\java\org\w3\_2001\xmlschema\Adapter1.java
+     [copy] Copying D:\PAG\PAG-OUBL\CXF\target\src\main\java\org\w3\_2001\xmlschema\Adapter2.java to D:\PAG\PAG-OUBL\common\target\src\main\java\org\w3\_2001\xmlschema\Adapter2.java
+     [copy] Copying D:\PAG\PAG-OUBL\CXF\target\src\main\java\org\w3\_2001\xmlschema\Adapter3.java to D:\PAG\PAG-OUBL\common\target\src\main\java\org\w3\_2001\xmlschema\Adapter3.java
+     [copy] Copying 6 files to D:\PAG\PAG-OUBL\webservice\src\test\java\com\vis\oubl\service
+     [copy] Copying D:\PAG\PAG-OUBL\CXF\target\src\main\java\com\vis\oubl\service\MedicalHistoryServiceSEIClient.java to D:\PAG\PAG-OUBL\webservice\src\test\java\com\vis\oubl\service\MedicalHistoryServiceSEIClient.java
+     [copy] Copying D:\PAG\PAG-OUBL\CXF\target\src\main\java\com\vis\oubl\service\MedicalHistoryServiceSEI_MedicalHistoryService_Client.java to D:\PAG\PAG-OUBL\webservice\src\test\java\com\vis\oubl\service\MedicalHistoryServiceSEI_MedicalHistoryService_Client.java
+     [copy] Copying D:\PAG\PAG-OUBL\CXF\target\src\main\java\com\vis\oubl\service\MedicalHistoryServiceSEI_MedicalHistoryService_Server.java to D:\PAG\PAG-OUBL\webservice\src\test\java\com\vis\oubl\service\MedicalHistoryServiceSEI_MedicalHistoryService_Server.java
+     [copy] Copying D:\PAG\PAG-OUBL\CXF\target\src\main\java\com\vis\oubl\service\SearchServiceSEIClient.java to D:\PAG\PAG-OUBL\webservice\src\test\java\com\vis\oubl\service\SearchServiceSEIClient.java
+     [copy] Copying D:\PAG\PAG-OUBL\CXF\target\src\main\java\com\vis\oubl\service\SearchServiceSEI_SearchService_Client.java to D:\PAG\PAG-OUBL\webservice\src\test\java\com\vis\oubl\service\SearchServiceSEI_SearchService_Client.java
+     [copy] Copying D:\PAG\PAG-OUBL\CXF\target\src\main\java\com\vis\oubl\service\SearchServiceSEI_SearchService_Server.java to D:\PAG\PAG-OUBL\webservice\src\test\java\com\vis\oubl\service\SearchServiceSEI_SearchService_Server.java

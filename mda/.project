@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+    <name>rest-webservice-mda</name>
+    <comment>The REST Web Services using AndroMDA UML2 Eclipse Project.</comment>
+    <projects>
+    </projects>
+    <buildSpec>
+    </buildSpec>
+    <natures>
+    </natures>
+</projectDescription>

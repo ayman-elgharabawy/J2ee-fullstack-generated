@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <echo message="andromda.project is D:\PAG\PAG-OUBL\mda/.."/>
+  <property name="build.compiler" value="extJavac"/>
+  <property name="andromda.project" value="D:\PAG\PAG-OUBL\mda/.."/>
+  <property name="project" value="D:\PAG\PAG-OUBL\mda/.."/>
+  <property name="compile_classpath" refid="maven.compile.classpath"/>
+  <property name="runtime_classpath" refid="maven.runtime.classpath"/>
+  <property name="test_classpath" refid="maven.test.classpath"/>
+  <ant antfile="D:\PAG\PAG-OUBL\mda/../webservice/buildWS.xml">
+    <target name="wsgenall"/>
+  </ant>
+</target>
+</project>
