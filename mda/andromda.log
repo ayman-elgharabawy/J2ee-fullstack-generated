@@ -1,576 +1,576 @@
-2016-03-19 08:16:44,878 DEBUG [org.apache.cxf.common.logging.LogUtils] Using org.apache.cxf.common.logging.Log4jLogger for logging.
-2016-03-19 08:16:45,722 DEBUG [org.apache.cxf.tools.wsdlto.core.PluginLoader] Loading plugin jar:file:/D:/nexus/sonatype-work/nexus/storage/public/org/apache/cxf/cxf-bundle/2.5.2/cxf-bundle-2.5.2.jar!/META-INF/tools-plugin.xml
-2016-03-19 08:16:45,751 DEBUG [org.apache.cxf.tools.wsdlto.core.PluginLoader] Found 2 frontends in <default> plugin.
-2016-03-19 08:16:45,751 DEBUG [org.apache.cxf.tools.wsdlto.core.PluginLoader] Loading <jaxws> frontend from <default> plugin.
-2016-03-19 08:16:45,751 DEBUG [org.apache.cxf.tools.wsdlto.core.PluginLoader] Loading <jaxws21> frontend from <default> plugin.
-2016-03-19 08:16:45,752 DEBUG [org.apache.cxf.tools.wsdlto.core.PluginLoader] Found 10 databindings in <default> plugin.
-2016-03-19 08:16:45,752 DEBUG [org.apache.cxf.tools.wsdlto.core.PluginLoader] Loading <source> databinding from <default> plugin.
-2016-03-19 08:16:45,753 DEBUG [org.apache.cxf.tools.wsdlto.core.PluginLoader] Loading <domsource> databinding from <default> plugin.
-2016-03-19 08:16:45,753 DEBUG [org.apache.cxf.tools.wsdlto.core.PluginLoader] Loading <staxsource> databinding from <default> plugin.
-2016-03-19 08:16:45,754 DEBUG [org.apache.cxf.tools.wsdlto.core.PluginLoader] Loading <saxsource> databinding from <default> plugin.
-2016-03-19 08:16:45,754 DEBUG [org.apache.cxf.tools.wsdlto.core.PluginLoader] Loading <jaxb> databinding from <default> plugin.
-2016-03-19 08:16:45,755 DEBUG [org.apache.cxf.tools.wsdlto.core.PluginLoader] Loading <xmlbeans> databinding from <default> plugin.
-2016-03-19 08:16:45,755 DEBUG [org.apache.cxf.tools.wsdlto.core.PluginLoader] Loading <jibx> databinding from <default> plugin.
-2016-03-19 08:16:45,755 DEBUG [org.apache.cxf.tools.wsdlto.core.PluginLoader] Loading <sdo> databinding from <default> plugin.
-2016-03-19 08:16:45,756 DEBUG [org.apache.cxf.tools.wsdlto.core.PluginLoader] Loading <sdo-dynamic> databinding from <default> plugin.
-2016-03-19 08:16:45,757 DEBUG [org.apache.cxf.tools.wsdlto.core.PluginLoader] Loading <sdo-static> databinding from <default> plugin.
-2016-03-19 08:16:46,241 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandLineParser] Parsing arguments: -p http://service.oubl.vis.com/=com.vis.oubl.service -b D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/bindings/MedicalHistoryService.xjb -d D:\PAG\PAG-OUBL\mda/../CXF/target/src/main/java -classdir D:\PAG\PAG-OUBL\mda/../CXF/src/main/webapp/WEB-INF/classes -all -allowElementReferences -verbose -exsh true -autoNameResolution D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl 
-2016-03-19 08:16:46,266 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandLineParser] Found 0 alternative forms of usage, will use default form
-2016-03-19 08:16:46,286 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Form] Accepting token stream for form of usage: default, tokens are [ -p http://service.oubl.vis.com/=com.vis.oubl.service -b D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/bindings/MedicalHistoryService.xjb -d D:\PAG\PAG-OUBL\mda/../CXF/target/src/main/java -classdir D:\PAG\PAG-OUBL\mda/../CXF/src/main/webapp/WEB-INF/classes -all -allowElementReferences -verbose -exsh true -autoNameResolution D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl ]
-2016-03-19 08:16:46,286 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Form] Position is: 0
-2016-03-19 08:16:46,286 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token -p
-2016-03-19 08:16:46,286 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token http://service.oubl.vis.com/=com.vis.oubl.service
-2016-03-19 08:16:46,287 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token -b
-2016-03-19 08:16:46,287 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/bindings/MedicalHistoryService.xjb
-2016-03-19 08:16:46,287 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token -d
-2016-03-19 08:16:46,287 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token D:\PAG\PAG-OUBL\mda/../CXF/target/src/main/java
-2016-03-19 08:16:46,287 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token -classdir
-2016-03-19 08:16:46,287 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token D:\PAG\PAG-OUBL\mda/../CXF/src/main/webapp/WEB-INF/classes
-2016-03-19 08:16:46,288 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token -all
-2016-03-19 08:16:46,288 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token -allowElementReferences
-2016-03-19 08:16:46,288 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token -verbose
-2016-03-19 08:16:46,288 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token -exsh
-2016-03-19 08:16:46,288 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token true
-2016-03-19 08:16:46,289 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token -autoNameResolution
-2016-03-19 08:16:46,289 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
-2016-03-19 08:16:46,289 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Form] Args is available
-2016-03-19 08:16:46,289 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] Accepting token stream for optionGroup: options, tokens are now [ -p http://service.oubl.vis.com/=com.vis.oubl.service -b D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/bindings/MedicalHistoryService.xjb -d D:\PAG\PAG-OUBL\mda/../CXF/target/src/main/java -classdir D:\PAG\PAG-OUBL\mda/../CXF/src/main/webapp/WEB-INF/classes -all -allowElementReferences -verbose -exsh true -autoNameResolution D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl ], running through 35 options
-2016-03-19 08:16:46,290 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -p
-2016-03-19 08:16:46,290 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -fe
-2016-03-19 08:16:46,290 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -frontend
-2016-03-19 08:16:46,290 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -p
-2016-03-19 08:16:46,291 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -db
-2016-03-19 08:16:46,291 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -databinding
-2016-03-19 08:16:46,291 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -p
-2016-03-19 08:16:46,291 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -wv
-2016-03-19 08:16:46,291 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -p
-2016-03-19 08:16:46,291 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -p
-2016-03-19 08:16:46,292 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] Matches a switch!!!
-2016-03-19 08:16:46,292 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token -p
-2016-03-19 08:16:46,292 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token http://service.oubl.vis.com/=com.vis.oubl.service
-2016-03-19 08:16:46,292 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] Setting argument value of option to http://service.oubl.vis.com/=com.vis.oubl.service
-2016-03-19 08:16:46,293 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] Option packagename accepted the token
-2016-03-19 08:16:46,293 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Form] Args is available
-2016-03-19 08:16:46,293 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] Accepting token stream for optionGroup: options, tokens are now [ -b D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/bindings/MedicalHistoryService.xjb -d D:\PAG\PAG-OUBL\mda/../CXF/target/src/main/java -classdir D:\PAG\PAG-OUBL\mda/../CXF/src/main/webapp/WEB-INF/classes -all -allowElementReferences -verbose -exsh true -autoNameResolution D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl ], running through 35 options
-2016-03-19 08:16:46,293 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -b
-2016-03-19 08:16:46,294 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -fe
-2016-03-19 08:16:46,294 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -frontend
-2016-03-19 08:16:46,294 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -b
-2016-03-19 08:16:46,295 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -db
-2016-03-19 08:16:46,295 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -databinding
-2016-03-19 08:16:46,295 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -b
-2016-03-19 08:16:46,295 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -wv
-2016-03-19 08:16:46,295 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -b
-2016-03-19 08:16:46,295 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -p
-2016-03-19 08:16:46,296 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -b
-2016-03-19 08:16:46,296 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -sn
-2016-03-19 08:16:46,296 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -b
-2016-03-19 08:16:46,296 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -b
-2016-03-19 08:16:46,296 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] Matches a switch!!!
-2016-03-19 08:16:46,297 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token -b
-2016-03-19 08:16:46,297 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/bindings/MedicalHistoryService.xjb
-2016-03-19 08:16:46,297 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] Setting argument value of option to D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/bindings/MedicalHistoryService.xjb
-2016-03-19 08:16:46,297 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] Option binding accepted the token
-2016-03-19 08:16:46,297 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Form] Args is available
-2016-03-19 08:16:46,298 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] Accepting token stream for optionGroup: options, tokens are now [ -d D:\PAG\PAG-OUBL\mda/../CXF/target/src/main/java -classdir D:\PAG\PAG-OUBL\mda/../CXF/src/main/webapp/WEB-INF/classes -all -allowElementReferences -verbose -exsh true -autoNameResolution D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl ], running through 35 options
-2016-03-19 08:16:46,298 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -d
-2016-03-19 08:16:46,298 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -fe
-2016-03-19 08:16:46,298 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -frontend
-2016-03-19 08:16:46,298 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -d
-2016-03-19 08:16:46,298 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -db
-2016-03-19 08:16:46,299 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -databinding
-2016-03-19 08:16:46,299 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -d
-2016-03-19 08:16:46,299 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -wv
-2016-03-19 08:16:46,299 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -d
-2016-03-19 08:16:46,299 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -p
-2016-03-19 08:16:46,299 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -d
-2016-03-19 08:16:46,300 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -sn
-2016-03-19 08:16:46,300 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -d
-2016-03-19 08:16:46,300 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -b
-2016-03-19 08:16:46,300 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -d
-2016-03-19 08:16:46,300 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -reserveClass
-2016-03-19 08:16:46,300 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -d
-2016-03-19 08:16:46,301 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -catalog
-2016-03-19 08:16:46,301 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -d
-2016-03-19 08:16:46,301 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -d
-2016-03-19 08:16:46,302 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] Matches a switch!!!
-2016-03-19 08:16:46,302 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token -d
-2016-03-19 08:16:46,302 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token D:\PAG\PAG-OUBL\mda/../CXF/target/src/main/java
-2016-03-19 08:16:46,302 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] Setting argument value of option to D:\PAG\PAG-OUBL\mda/../CXF/target/src/main/java
-2016-03-19 08:16:46,302 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] Option outputdir accepted the token
-2016-03-19 08:16:46,303 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Form] Args is available
-2016-03-19 08:16:46,303 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] Accepting token stream for optionGroup: options, tokens are now [ -classdir D:\PAG\PAG-OUBL\mda/../CXF/src/main/webapp/WEB-INF/classes -all -allowElementReferences -verbose -exsh true -autoNameResolution D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl ], running through 35 options
-2016-03-19 08:16:46,303 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -classdir
-2016-03-19 08:16:46,303 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -fe
-2016-03-19 08:16:46,303 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -frontend
-2016-03-19 08:16:46,303 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -classdir
-2016-03-19 08:16:46,304 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -db
-2016-03-19 08:16:46,304 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -databinding
-2016-03-19 08:16:46,304 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -classdir
-2016-03-19 08:16:46,304 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -wv
-2016-03-19 08:16:46,305 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -classdir
-2016-03-19 08:16:46,305 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -p
-2016-03-19 08:16:46,305 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -classdir
-2016-03-19 08:16:46,305 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -sn
-2016-03-19 08:16:46,306 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -classdir
-2016-03-19 08:16:46,306 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -b
-2016-03-19 08:16:46,306 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -classdir
-2016-03-19 08:16:46,306 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -reserveClass
-2016-03-19 08:16:46,307 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -classdir
-2016-03-19 08:16:46,307 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -catalog
-2016-03-19 08:16:46,307 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -classdir
-2016-03-19 08:16:46,307 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -d
-2016-03-19 08:16:46,307 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -classdir
-2016-03-19 08:16:46,308 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -compile
-2016-03-19 08:16:46,308 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -classdir
-2016-03-19 08:16:46,308 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -classdir
-2016-03-19 08:16:46,308 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] Matches a switch!!!
-2016-03-19 08:16:46,309 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token -classdir
-2016-03-19 08:16:46,309 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token D:\PAG\PAG-OUBL\mda/../CXF/src/main/webapp/WEB-INF/classes
-2016-03-19 08:16:46,309 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] Setting argument value of option to D:\PAG\PAG-OUBL\mda/../CXF/src/main/webapp/WEB-INF/classes
-2016-03-19 08:16:46,309 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] Option classdir accepted the token
-2016-03-19 08:16:46,310 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Form] Args is available
-2016-03-19 08:16:46,310 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] Accepting token stream for optionGroup: options, tokens are now [ -all -allowElementReferences -verbose -exsh true -autoNameResolution D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl ], running through 35 options
-2016-03-19 08:16:46,310 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -all
-2016-03-19 08:16:46,310 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -fe
-2016-03-19 08:16:46,310 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -frontend
-2016-03-19 08:16:46,310 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -all
-2016-03-19 08:16:46,311 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -db
-2016-03-19 08:16:46,311 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -databinding
-2016-03-19 08:16:46,311 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -all
-2016-03-19 08:16:46,311 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -wv
-2016-03-19 08:16:46,311 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -all
-2016-03-19 08:16:46,311 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -p
-2016-03-19 08:16:46,312 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -all
-2016-03-19 08:16:46,312 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -sn
-2016-03-19 08:16:46,312 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -all
-2016-03-19 08:16:46,313 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -b
-2016-03-19 08:16:46,313 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -all
-2016-03-19 08:16:46,313 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -reserveClass
-2016-03-19 08:16:46,313 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -all
-2016-03-19 08:16:46,313 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -catalog
-2016-03-19 08:16:46,314 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -all
-2016-03-19 08:16:46,314 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -d
-2016-03-19 08:16:46,314 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -all
-2016-03-19 08:16:46,315 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -compile
-2016-03-19 08:16:46,315 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -all
-2016-03-19 08:16:46,315 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -classdir
-2016-03-19 08:16:46,315 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -all
-2016-03-19 08:16:46,315 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -impl
-2016-03-19 08:16:46,316 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -all
-2016-03-19 08:16:46,316 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -server
-2016-03-19 08:16:46,316 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -all
-2016-03-19 08:16:46,316 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -client
-2016-03-19 08:16:46,316 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -all
-2016-03-19 08:16:46,317 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -all
-2016-03-19 08:16:46,317 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] Matches a switch!!!
-2016-03-19 08:16:46,317 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token -all
-2016-03-19 08:16:46,317 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] Option all accepted the token
-2016-03-19 08:16:46,319 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Form] Args is available
-2016-03-19 08:16:46,319 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] Accepting token stream for optionGroup: options, tokens are now [ -allowElementReferences -verbose -exsh true -autoNameResolution D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl ], running through 35 options
-2016-03-19 08:16:46,320 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -allowElementReferences
-2016-03-19 08:16:46,320 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -fe
-2016-03-19 08:16:46,320 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -frontend
-2016-03-19 08:16:46,321 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -allowElementReferences
-2016-03-19 08:16:46,321 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -db
-2016-03-19 08:16:46,321 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -databinding
-2016-03-19 08:16:46,321 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -allowElementReferences
-2016-03-19 08:16:46,322 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -wv
-2016-03-19 08:16:46,322 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -allowElementReferences
-2016-03-19 08:16:46,322 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -p
-2016-03-19 08:16:46,322 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -allowElementReferences
-2016-03-19 08:16:46,323 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -sn
-2016-03-19 08:16:46,323 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -allowElementReferences
-2016-03-19 08:16:46,323 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -b
-2016-03-19 08:16:46,323 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -allowElementReferences
-2016-03-19 08:16:46,324 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -reserveClass
-2016-03-19 08:16:46,324 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -allowElementReferences
-2016-03-19 08:16:46,324 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -catalog
-2016-03-19 08:16:46,324 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -allowElementReferences
-2016-03-19 08:16:46,325 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -d
-2016-03-19 08:16:46,325 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -allowElementReferences
-2016-03-19 08:16:46,325 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -compile
-2016-03-19 08:16:46,325 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -allowElementReferences
-2016-03-19 08:16:46,326 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -classdir
-2016-03-19 08:16:46,326 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -allowElementReferences
-2016-03-19 08:16:46,326 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -impl
-2016-03-19 08:16:46,326 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -allowElementReferences
-2016-03-19 08:16:46,327 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -server
-2016-03-19 08:16:46,327 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -allowElementReferences
-2016-03-19 08:16:46,327 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -client
-2016-03-19 08:16:46,327 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -allowElementReferences
-2016-03-19 08:16:46,327 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -all
-2016-03-19 08:16:46,328 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -allowElementReferences
-2016-03-19 08:16:46,328 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -autoNameResolution
-2016-03-19 08:16:46,328 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -allowElementReferences
-2016-03-19 08:16:46,328 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -allowElementReferences
-2016-03-19 08:16:46,328 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] Matches a switch!!!
-2016-03-19 08:16:46,329 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token -allowElementReferences
-2016-03-19 08:16:46,329 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] Setting argument value of option to 
-2016-03-19 08:16:46,329 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -aer
-2016-03-19 08:16:46,329 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] Option allowElementReferences accepted the token
-2016-03-19 08:16:46,330 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Form] Args is available
-2016-03-19 08:16:46,330 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] Accepting token stream for optionGroup: options, tokens are now [ -verbose -exsh true -autoNameResolution D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl ], running through 35 options
-2016-03-19 08:16:46,330 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
-2016-03-19 08:16:46,330 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -fe
-2016-03-19 08:16:46,331 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -frontend
-2016-03-19 08:16:46,331 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
-2016-03-19 08:16:46,331 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -db
-2016-03-19 08:16:46,331 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -databinding
-2016-03-19 08:16:46,331 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
-2016-03-19 08:16:46,332 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -wv
-2016-03-19 08:16:46,332 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
-2016-03-19 08:16:46,332 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -p
-2016-03-19 08:16:46,332 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
-2016-03-19 08:16:46,333 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -sn
-2016-03-19 08:16:46,333 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
-2016-03-19 08:16:46,333 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -b
-2016-03-19 08:16:46,333 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
-2016-03-19 08:16:46,333 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -reserveClass
-2016-03-19 08:16:46,334 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
-2016-03-19 08:16:46,334 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -catalog
-2016-03-19 08:16:46,334 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
-2016-03-19 08:16:46,334 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -d
-2016-03-19 08:16:46,335 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
-2016-03-19 08:16:46,335 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -compile
-2016-03-19 08:16:46,335 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
-2016-03-19 08:16:46,335 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -classdir
-2016-03-19 08:16:46,336 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
-2016-03-19 08:16:46,336 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -impl
-2016-03-19 08:16:46,336 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
-2016-03-19 08:16:46,336 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -server
-2016-03-19 08:16:46,336 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
-2016-03-19 08:16:46,336 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -client
-2016-03-19 08:16:46,337 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
-2016-03-19 08:16:46,337 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -all
-2016-03-19 08:16:46,337 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
-2016-03-19 08:16:46,337 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -autoNameResolution
-2016-03-19 08:16:46,337 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
-2016-03-19 08:16:46,337 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -allowElementReferences
-2016-03-19 08:16:46,338 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -aer
-2016-03-19 08:16:46,338 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
-2016-03-19 08:16:46,338 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -defaultValues
-2016-03-19 08:16:46,339 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
-2016-03-19 08:16:46,339 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -ant
-2016-03-19 08:16:46,339 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
-2016-03-19 08:16:46,339 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -nexclude
-2016-03-19 08:16:46,339 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
-2016-03-19 08:16:46,340 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -exsh
-2016-03-19 08:16:46,340 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
-2016-03-19 08:16:46,340 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -noTypes
-2016-03-19 08:16:46,340 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
-2016-03-19 08:16:46,340 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -dns
-2016-03-19 08:16:46,341 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
-2016-03-19 08:16:46,341 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -dex
-2016-03-19 08:16:46,341 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
-2016-03-19 08:16:46,341 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -validate
-2016-03-19 08:16:46,341 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
-2016-03-19 08:16:46,341 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -keep
-2016-03-19 08:16:46,342 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
-2016-03-19 08:16:46,342 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -wsdlLocation
-2016-03-19 08:16:46,342 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
-2016-03-19 08:16:46,342 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -xjc
-2016-03-19 08:16:46,342 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
-2016-03-19 08:16:46,342 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -asyncMethods
-2016-03-19 08:16:46,343 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
-2016-03-19 08:16:46,343 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -bareMethods
-2016-03-19 08:16:46,343 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
-2016-03-19 08:16:46,343 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -mimeMethods
-2016-03-19 08:16:46,343 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
-2016-03-19 08:16:46,343 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -noAddressBinding
-2016-03-19 08:16:46,344 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
-2016-03-19 08:16:46,344 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -faultSerialVersionUID
-2016-03-19 08:16:46,344 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
-2016-03-19 08:16:46,344 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -exceptionSuper
-2016-03-19 08:16:46,344 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
-2016-03-19 08:16:46,344 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -mark-generated
-2016-03-19 08:16:46,345 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] No option accepted the token, returning
-2016-03-19 08:16:46,345 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] Accepting token stream for optionGroup: common_options, tokens are now [ -verbose -exsh true -autoNameResolution D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl ], running through 5 options
-2016-03-19 08:16:46,345 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
-2016-03-19 08:16:46,345 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -h
-2016-03-19 08:16:46,345 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -?
-2016-03-19 08:16:46,345 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -help
-2016-03-19 08:16:46,346 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
-2016-03-19 08:16:46,346 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -version
-2016-03-19 08:16:46,346 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -v
-2016-03-19 08:16:46,346 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
-2016-03-19 08:16:46,346 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -verbose
-2016-03-19 08:16:46,346 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] Matches a switch!!!
-2016-03-19 08:16:46,347 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token -verbose
-2016-03-19 08:16:46,347 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -V
-2016-03-19 08:16:46,347 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] Option verbose accepted the token
-2016-03-19 08:16:46,347 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Form] Args is available
-2016-03-19 08:16:46,347 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] Accepting token stream for optionGroup: options, tokens are now [ -exsh true -autoNameResolution D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl ], running through 35 options
-2016-03-19 08:16:46,347 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -exsh
-2016-03-19 08:16:46,348 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -fe
-2016-03-19 08:16:46,348 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -frontend
-2016-03-19 08:16:46,348 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -exsh
-2016-03-19 08:16:46,348 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -db
-2016-03-19 08:16:46,348 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -databinding
-2016-03-19 08:16:46,348 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -exsh
-2016-03-19 08:16:46,349 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -wv
-2016-03-19 08:16:46,349 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -exsh
-2016-03-19 08:16:46,349 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -p
-2016-03-19 08:16:46,349 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -exsh
-2016-03-19 08:16:46,349 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -sn
-2016-03-19 08:16:46,349 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -exsh
-2016-03-19 08:16:46,350 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -b
-2016-03-19 08:16:46,350 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -exsh
-2016-03-19 08:16:46,350 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -reserveClass
-2016-03-19 08:16:46,350 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -exsh
-2016-03-19 08:16:46,350 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -catalog
-2016-03-19 08:16:46,350 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -exsh
-2016-03-19 08:16:46,351 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -d
-2016-03-19 08:16:46,351 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -exsh
-2016-03-19 08:16:46,351 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -compile
-2016-03-19 08:16:46,351 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -exsh
-2016-03-19 08:16:46,351 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -classdir
-2016-03-19 08:16:46,351 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -exsh
-2016-03-19 08:16:46,352 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -impl
-2016-03-19 08:16:46,352 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -exsh
-2016-03-19 08:16:46,352 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -server
-2016-03-19 08:16:46,352 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -exsh
-2016-03-19 08:16:46,352 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -client
-2016-03-19 08:16:46,352 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -exsh
-2016-03-19 08:16:46,352 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -all
-2016-03-19 08:16:46,353 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -exsh
-2016-03-19 08:16:46,353 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -autoNameResolution
-2016-03-19 08:16:46,353 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -exsh
-2016-03-19 08:16:46,353 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -allowElementReferences
-2016-03-19 08:16:46,353 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -aer
-2016-03-19 08:16:46,353 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -exsh
-2016-03-19 08:16:46,354 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -defaultValues
-2016-03-19 08:16:46,354 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -exsh
-2016-03-19 08:16:46,354 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -ant
-2016-03-19 08:16:46,354 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -exsh
-2016-03-19 08:16:46,354 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -nexclude
-2016-03-19 08:16:46,355 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -exsh
-2016-03-19 08:16:46,355 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -exsh
-2016-03-19 08:16:46,355 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] Matches a switch!!!
-2016-03-19 08:16:46,355 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token -exsh
-2016-03-19 08:16:46,355 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token true
-2016-03-19 08:16:46,356 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] Setting argument value of option to true
-2016-03-19 08:16:46,356 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] Option exsoapheader accepted the token
-2016-03-19 08:16:46,356 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Form] Args is available
-2016-03-19 08:16:46,356 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] Accepting token stream for optionGroup: options, tokens are now [ -autoNameResolution D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl ], running through 35 options
-2016-03-19 08:16:46,356 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -autoNameResolution
-2016-03-19 08:16:46,356 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -fe
-2016-03-19 08:16:46,357 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -frontend
-2016-03-19 08:16:46,357 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -autoNameResolution
-2016-03-19 08:16:46,357 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -db
-2016-03-19 08:16:46,357 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -databinding
-2016-03-19 08:16:46,357 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -autoNameResolution
-2016-03-19 08:16:46,358 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -wv
-2016-03-19 08:16:46,358 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -autoNameResolution
-2016-03-19 08:16:46,358 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -p
-2016-03-19 08:16:46,358 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -autoNameResolution
-2016-03-19 08:16:46,358 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -sn
-2016-03-19 08:16:46,358 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -autoNameResolution
-2016-03-19 08:16:46,359 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -b
-2016-03-19 08:16:46,359 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -autoNameResolution
-2016-03-19 08:16:46,359 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -reserveClass
-2016-03-19 08:16:46,359 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -autoNameResolution
-2016-03-19 08:16:46,359 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -catalog
-2016-03-19 08:16:46,360 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -autoNameResolution
-2016-03-19 08:16:46,360 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -d
-2016-03-19 08:16:46,360 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -autoNameResolution
-2016-03-19 08:16:46,360 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -compile
-2016-03-19 08:16:46,360 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -autoNameResolution
-2016-03-19 08:16:46,361 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -classdir
-2016-03-19 08:16:46,361 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -autoNameResolution
-2016-03-19 08:16:46,361 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -impl
-2016-03-19 08:16:46,361 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -autoNameResolution
-2016-03-19 08:16:46,362 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -server
-2016-03-19 08:16:46,362 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -autoNameResolution
-2016-03-19 08:16:46,362 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -client
-2016-03-19 08:16:46,362 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -autoNameResolution
-2016-03-19 08:16:46,363 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -all
-2016-03-19 08:16:46,363 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -autoNameResolution
-2016-03-19 08:16:46,363 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -autoNameResolution
-2016-03-19 08:16:46,363 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] Matches a switch!!!
-2016-03-19 08:16:46,363 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token -autoNameResolution
-2016-03-19 08:16:46,364 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] Option autoNameResolution accepted the token
-2016-03-19 08:16:46,364 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Form] Args is available
-2016-03-19 08:16:46,364 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] Accepting token stream for optionGroup: options, tokens are now [ D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl ], running through 35 options
-2016-03-19 08:16:46,364 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
-2016-03-19 08:16:46,364 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -fe
-2016-03-19 08:16:46,364 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -frontend
-2016-03-19 08:16:46,365 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
-2016-03-19 08:16:46,365 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -db
-2016-03-19 08:16:46,365 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -databinding
-2016-03-19 08:16:46,365 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
-2016-03-19 08:16:46,365 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -wv
-2016-03-19 08:16:46,365 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
-2016-03-19 08:16:46,366 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -p
-2016-03-19 08:16:46,366 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
-2016-03-19 08:16:46,366 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -sn
-2016-03-19 08:16:46,366 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
-2016-03-19 08:16:46,366 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -b
-2016-03-19 08:16:46,367 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
-2016-03-19 08:16:46,367 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -reserveClass
-2016-03-19 08:16:46,367 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
-2016-03-19 08:16:46,367 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -catalog
-2016-03-19 08:16:46,367 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
-2016-03-19 08:16:46,367 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -d
-2016-03-19 08:16:46,368 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
-2016-03-19 08:16:46,368 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -compile
-2016-03-19 08:16:46,368 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
-2016-03-19 08:16:46,368 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -classdir
-2016-03-19 08:16:46,368 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
-2016-03-19 08:16:46,369 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -impl
-2016-03-19 08:16:46,369 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
-2016-03-19 08:16:46,369 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -server
-2016-03-19 08:16:46,369 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
-2016-03-19 08:16:46,369 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -client
-2016-03-19 08:16:46,369 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
-2016-03-19 08:16:46,370 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -all
-2016-03-19 08:16:46,370 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
-2016-03-19 08:16:46,370 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -autoNameResolution
-2016-03-19 08:16:46,370 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
-2016-03-19 08:16:46,370 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -allowElementReferences
-2016-03-19 08:16:46,371 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -aer
-2016-03-19 08:16:46,371 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
-2016-03-19 08:16:46,371 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -defaultValues
-2016-03-19 08:16:46,371 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
-2016-03-19 08:16:46,371 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -ant
-2016-03-19 08:16:46,371 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
-2016-03-19 08:16:46,372 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -nexclude
-2016-03-19 08:16:46,372 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
-2016-03-19 08:16:46,372 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -exsh
-2016-03-19 08:16:46,372 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
-2016-03-19 08:16:46,372 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -noTypes
-2016-03-19 08:16:46,372 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
-2016-03-19 08:16:46,372 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -dns
-2016-03-19 08:16:46,373 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
-2016-03-19 08:16:46,373 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -dex
-2016-03-19 08:16:46,373 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
-2016-03-19 08:16:46,373 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -validate
-2016-03-19 08:16:46,373 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
-2016-03-19 08:16:46,374 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -keep
-2016-03-19 08:16:46,374 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
-2016-03-19 08:16:46,374 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -wsdlLocation
-2016-03-19 08:16:46,381 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
-2016-03-19 08:16:46,381 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -xjc
-2016-03-19 08:16:46,381 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
-2016-03-19 08:16:46,381 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -asyncMethods
-2016-03-19 08:16:46,381 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
-2016-03-19 08:16:46,382 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -bareMethods
-2016-03-19 08:16:46,382 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
-2016-03-19 08:16:46,382 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -mimeMethods
-2016-03-19 08:16:46,382 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
-2016-03-19 08:16:46,382 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -noAddressBinding
-2016-03-19 08:16:46,382 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
-2016-03-19 08:16:46,383 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -faultSerialVersionUID
-2016-03-19 08:16:46,383 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
-2016-03-19 08:16:46,383 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -exceptionSuper
-2016-03-19 08:16:46,383 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
-2016-03-19 08:16:46,383 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -mark-generated
-2016-03-19 08:16:46,383 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] No option accepted the token, returning
-2016-03-19 08:16:46,384 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] Accepting token stream for optionGroup: common_options, tokens are now [ D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl ], running through 5 options
-2016-03-19 08:16:46,384 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
-2016-03-19 08:16:46,384 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -h
-2016-03-19 08:16:46,384 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -?
-2016-03-19 08:16:46,384 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -help
-2016-03-19 08:16:46,384 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
-2016-03-19 08:16:46,384 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -version
-2016-03-19 08:16:46,384 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -v
-2016-03-19 08:16:46,385 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
-2016-03-19 08:16:46,385 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -verbose
-2016-03-19 08:16:46,385 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -V
-2016-03-19 08:16:46,385 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
-2016-03-19 08:16:46,385 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -quiet
-2016-03-19 08:16:46,385 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -q
-2016-03-19 08:16:46,386 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -Q
-2016-03-19 08:16:46,386 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
-2016-03-19 08:16:46,386 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -wsdlList
-2016-03-19 08:16:46,386 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] No option accepted the token, returning
-2016-03-19 08:16:46,386 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 0
-2016-03-19 08:16:46,387 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
-2016-03-19 08:16:46,387 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 0
-2016-03-19 08:16:46,387 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
-2016-03-19 08:16:46,387 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 0
-2016-03-19 08:16:46,388 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
-2016-03-19 08:16:46,388 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=unbounded, numMatches currently 1
-2016-03-19 08:16:46,388 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
-2016-03-19 08:16:46,388 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=, numMatches currently 0
-2016-03-19 08:16:46,389 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
-2016-03-19 08:16:46,389 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=unbounded, numMatches currently 1
-2016-03-19 08:16:46,389 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
-2016-03-19 08:16:46,389 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=unbounded, numMatches currently 0
-2016-03-19 08:16:46,389 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
-2016-03-19 08:16:46,389 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 0
-2016-03-19 08:16:46,390 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
-2016-03-19 08:16:46,390 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 1
-2016-03-19 08:16:46,390 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
-2016-03-19 08:16:46,390 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 0
-2016-03-19 08:16:46,390 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
-2016-03-19 08:16:46,390 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 1
-2016-03-19 08:16:46,391 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
-2016-03-19 08:16:46,391 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 0
-2016-03-19 08:16:46,391 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
-2016-03-19 08:16:46,391 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 0
-2016-03-19 08:16:46,392 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
-2016-03-19 08:16:46,392 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 0
-2016-03-19 08:16:46,392 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
-2016-03-19 08:16:46,392 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 1
-2016-03-19 08:16:46,392 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
-2016-03-19 08:16:46,393 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 1
-2016-03-19 08:16:46,393 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
-2016-03-19 08:16:46,393 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 1
-2016-03-19 08:16:46,393 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
-2016-03-19 08:16:46,393 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 0
-2016-03-19 08:16:46,394 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
-2016-03-19 08:16:46,394 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 0
-2016-03-19 08:16:46,394 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
-2016-03-19 08:16:46,394 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=unbounded, numMatches currently 0
-2016-03-19 08:16:46,394 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
-2016-03-19 08:16:46,394 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 1
-2016-03-19 08:16:46,395 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
-2016-03-19 08:16:46,395 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 0
-2016-03-19 08:16:46,395 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
-2016-03-19 08:16:46,395 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 0
-2016-03-19 08:16:46,395 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
-2016-03-19 08:16:46,395 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 0
-2016-03-19 08:16:46,396 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
-2016-03-19 08:16:46,396 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 0
-2016-03-19 08:16:46,396 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
-2016-03-19 08:16:46,396 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 0
-2016-03-19 08:16:46,396 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
-2016-03-19 08:16:46,396 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 0
-2016-03-19 08:16:46,397 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
-2016-03-19 08:16:46,397 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=unbounded, numMatches currently 0
-2016-03-19 08:16:46,397 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
-2016-03-19 08:16:46,397 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=unbounded, numMatches currently 0
-2016-03-19 08:16:46,398 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
-2016-03-19 08:16:46,398 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=unbounded, numMatches currently 0
-2016-03-19 08:16:46,398 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
-2016-03-19 08:16:46,398 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=unbounded, numMatches currently 0
-2016-03-19 08:16:46,398 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
-2016-03-19 08:16:46,399 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 0
-2016-03-19 08:16:46,399 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
-2016-03-19 08:16:46,399 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 0
-2016-03-19 08:16:46,399 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
-2016-03-19 08:16:46,399 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 0
-2016-03-19 08:16:46,400 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
-2016-03-19 08:16:46,400 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 0
-2016-03-19 08:16:46,400 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
-2016-03-19 08:16:46,400 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 0
-2016-03-19 08:16:46,400 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
-2016-03-19 08:16:46,401 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=, numMatches currently 0
-2016-03-19 08:16:46,401 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
-2016-03-19 08:16:46,401 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=, numMatches currently 1
-2016-03-19 08:16:46,401 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
-2016-03-19 08:16:46,401 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=, numMatches currently 0
-2016-03-19 08:16:46,401 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
-2016-03-19 08:16:46,402 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 0
-2016-03-19 08:16:46,402 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
-2016-03-19 08:16:46,402 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Argument] Accepting token stream for argument: wsdlurl
-2016-03-19 08:16:46,403 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
-2016-03-19 08:16:46,403 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
-2016-03-19 08:16:46,403 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Form] Form default is returning true
-2016-03-19 08:16:47,277 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandLineParser] <command xmlns="http://cxf.apache.org/Xutil/Command" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://cxf.apache.org/Xutil/Command http://cxf.apache.org/schema/xutil/commnad.xsd">
+2016-05-02 12:39:15,433 DEBUG [org.apache.cxf.common.logging.LogUtils] Using org.apache.cxf.common.logging.Log4jLogger for logging.
+2016-05-02 12:39:15,591 DEBUG [org.apache.cxf.tools.wsdlto.core.PluginLoader] Loading plugin jar:file:/C:/Users/Ayman/.m2/repository/org/apache/cxf/cxf-bundle/2.5.2/cxf-bundle-2.5.2.jar!/META-INF/tools-plugin.xml
+2016-05-02 12:39:15,597 DEBUG [org.apache.cxf.tools.wsdlto.core.PluginLoader] Found 2 frontends in <default> plugin.
+2016-05-02 12:39:15,597 DEBUG [org.apache.cxf.tools.wsdlto.core.PluginLoader] Loading <jaxws> frontend from <default> plugin.
+2016-05-02 12:39:15,597 DEBUG [org.apache.cxf.tools.wsdlto.core.PluginLoader] Loading <jaxws21> frontend from <default> plugin.
+2016-05-02 12:39:15,597 DEBUG [org.apache.cxf.tools.wsdlto.core.PluginLoader] Found 10 databindings in <default> plugin.
+2016-05-02 12:39:15,598 DEBUG [org.apache.cxf.tools.wsdlto.core.PluginLoader] Loading <source> databinding from <default> plugin.
+2016-05-02 12:39:15,598 DEBUG [org.apache.cxf.tools.wsdlto.core.PluginLoader] Loading <domsource> databinding from <default> plugin.
+2016-05-02 12:39:15,598 DEBUG [org.apache.cxf.tools.wsdlto.core.PluginLoader] Loading <staxsource> databinding from <default> plugin.
+2016-05-02 12:39:15,598 DEBUG [org.apache.cxf.tools.wsdlto.core.PluginLoader] Loading <saxsource> databinding from <default> plugin.
+2016-05-02 12:39:15,598 DEBUG [org.apache.cxf.tools.wsdlto.core.PluginLoader] Loading <jaxb> databinding from <default> plugin.
+2016-05-02 12:39:15,598 DEBUG [org.apache.cxf.tools.wsdlto.core.PluginLoader] Loading <xmlbeans> databinding from <default> plugin.
+2016-05-02 12:39:15,598 DEBUG [org.apache.cxf.tools.wsdlto.core.PluginLoader] Loading <jibx> databinding from <default> plugin.
+2016-05-02 12:39:15,598 DEBUG [org.apache.cxf.tools.wsdlto.core.PluginLoader] Loading <sdo> databinding from <default> plugin.
+2016-05-02 12:39:15,598 DEBUG [org.apache.cxf.tools.wsdlto.core.PluginLoader] Loading <sdo-dynamic> databinding from <default> plugin.
+2016-05-02 12:39:15,598 DEBUG [org.apache.cxf.tools.wsdlto.core.PluginLoader] Loading <sdo-static> databinding from <default> plugin.
+2016-05-02 12:39:15,679 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandLineParser] Parsing arguments: -p http://service.oubl.vis.com/=com.vis.oubl.service -b D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/bindings/InventoryService.xjb -d D:\PAG\PAG-OUBL\mda/../CXF/target/src/main/java -classdir D:\PAG\PAG-OUBL\mda/../CXF/src/main/webapp/WEB-INF/classes -all -allowElementReferences -verbose -exsh true -autoNameResolution D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl 
+2016-05-02 12:39:15,684 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandLineParser] Found 0 alternative forms of usage, will use default form
+2016-05-02 12:39:15,687 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Form] Accepting token stream for form of usage: default, tokens are [ -p http://service.oubl.vis.com/=com.vis.oubl.service -b D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/bindings/InventoryService.xjb -d D:\PAG\PAG-OUBL\mda/../CXF/target/src/main/java -classdir D:\PAG\PAG-OUBL\mda/../CXF/src/main/webapp/WEB-INF/classes -all -allowElementReferences -verbose -exsh true -autoNameResolution D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl ]
+2016-05-02 12:39:15,687 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Form] Position is: 0
+2016-05-02 12:39:15,687 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token -p
+2016-05-02 12:39:15,687 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token http://service.oubl.vis.com/=com.vis.oubl.service
+2016-05-02 12:39:15,687 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token -b
+2016-05-02 12:39:15,687 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/bindings/InventoryService.xjb
+2016-05-02 12:39:15,687 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token -d
+2016-05-02 12:39:15,688 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token D:\PAG\PAG-OUBL\mda/../CXF/target/src/main/java
+2016-05-02 12:39:15,688 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token -classdir
+2016-05-02 12:39:15,688 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token D:\PAG\PAG-OUBL\mda/../CXF/src/main/webapp/WEB-INF/classes
+2016-05-02 12:39:15,688 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token -all
+2016-05-02 12:39:15,688 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token -allowElementReferences
+2016-05-02 12:39:15,688 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token -verbose
+2016-05-02 12:39:15,688 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token -exsh
+2016-05-02 12:39:15,688 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token true
+2016-05-02 12:39:15,688 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token -autoNameResolution
+2016-05-02 12:39:15,688 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl
+2016-05-02 12:39:15,688 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Form] Args is available
+2016-05-02 12:39:15,688 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] Accepting token stream for optionGroup: options, tokens are now [ -p http://service.oubl.vis.com/=com.vis.oubl.service -b D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/bindings/InventoryService.xjb -d D:\PAG\PAG-OUBL\mda/../CXF/target/src/main/java -classdir D:\PAG\PAG-OUBL\mda/../CXF/src/main/webapp/WEB-INF/classes -all -allowElementReferences -verbose -exsh true -autoNameResolution D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl ], running through 35 options
+2016-05-02 12:39:15,688 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -p
+2016-05-02 12:39:15,688 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -fe
+2016-05-02 12:39:15,688 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -frontend
+2016-05-02 12:39:15,688 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -p
+2016-05-02 12:39:15,688 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -db
+2016-05-02 12:39:15,688 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -databinding
+2016-05-02 12:39:15,688 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -p
+2016-05-02 12:39:15,689 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -wv
+2016-05-02 12:39:15,689 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -p
+2016-05-02 12:39:15,689 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -p
+2016-05-02 12:39:15,689 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] Matches a switch!!!
+2016-05-02 12:39:15,689 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token -p
+2016-05-02 12:39:15,689 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token http://service.oubl.vis.com/=com.vis.oubl.service
+2016-05-02 12:39:15,689 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] Setting argument value of option to http://service.oubl.vis.com/=com.vis.oubl.service
+2016-05-02 12:39:15,689 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] Option packagename accepted the token
+2016-05-02 12:39:15,689 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Form] Args is available
+2016-05-02 12:39:15,689 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] Accepting token stream for optionGroup: options, tokens are now [ -b D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/bindings/InventoryService.xjb -d D:\PAG\PAG-OUBL\mda/../CXF/target/src/main/java -classdir D:\PAG\PAG-OUBL\mda/../CXF/src/main/webapp/WEB-INF/classes -all -allowElementReferences -verbose -exsh true -autoNameResolution D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl ], running through 35 options
+2016-05-02 12:39:15,689 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -b
+2016-05-02 12:39:15,689 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -fe
+2016-05-02 12:39:15,689 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -frontend
+2016-05-02 12:39:15,689 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -b
+2016-05-02 12:39:15,689 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -db
+2016-05-02 12:39:15,689 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -databinding
+2016-05-02 12:39:15,689 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -b
+2016-05-02 12:39:15,689 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -wv
+2016-05-02 12:39:15,689 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -b
+2016-05-02 12:39:15,689 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -p
+2016-05-02 12:39:15,689 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -b
+2016-05-02 12:39:15,690 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -sn
+2016-05-02 12:39:15,690 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -b
+2016-05-02 12:39:15,690 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -b
+2016-05-02 12:39:15,690 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] Matches a switch!!!
+2016-05-02 12:39:15,690 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token -b
+2016-05-02 12:39:15,690 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/bindings/InventoryService.xjb
+2016-05-02 12:39:15,690 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] Setting argument value of option to D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/bindings/InventoryService.xjb
+2016-05-02 12:39:15,690 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] Option binding accepted the token
+2016-05-02 12:39:15,690 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Form] Args is available
+2016-05-02 12:39:15,690 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] Accepting token stream for optionGroup: options, tokens are now [ -d D:\PAG\PAG-OUBL\mda/../CXF/target/src/main/java -classdir D:\PAG\PAG-OUBL\mda/../CXF/src/main/webapp/WEB-INF/classes -all -allowElementReferences -verbose -exsh true -autoNameResolution D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl ], running through 35 options
+2016-05-02 12:39:15,690 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -d
+2016-05-02 12:39:15,690 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -fe
+2016-05-02 12:39:15,690 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -frontend
+2016-05-02 12:39:15,690 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -d
+2016-05-02 12:39:15,690 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -db
+2016-05-02 12:39:15,690 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -databinding
+2016-05-02 12:39:15,690 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -d
+2016-05-02 12:39:15,690 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -wv
+2016-05-02 12:39:15,690 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -d
+2016-05-02 12:39:15,690 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -p
+2016-05-02 12:39:15,690 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -d
+2016-05-02 12:39:15,691 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -sn
+2016-05-02 12:39:15,691 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -d
+2016-05-02 12:39:15,691 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -b
+2016-05-02 12:39:15,691 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -d
+2016-05-02 12:39:15,691 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -reserveClass
+2016-05-02 12:39:15,691 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -d
+2016-05-02 12:39:15,691 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -catalog
+2016-05-02 12:39:15,691 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -d
+2016-05-02 12:39:15,691 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -d
+2016-05-02 12:39:15,691 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] Matches a switch!!!
+2016-05-02 12:39:15,691 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token -d
+2016-05-02 12:39:15,691 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token D:\PAG\PAG-OUBL\mda/../CXF/target/src/main/java
+2016-05-02 12:39:15,691 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] Setting argument value of option to D:\PAG\PAG-OUBL\mda/../CXF/target/src/main/java
+2016-05-02 12:39:15,691 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] Option outputdir accepted the token
+2016-05-02 12:39:15,691 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Form] Args is available
+2016-05-02 12:39:15,691 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] Accepting token stream for optionGroup: options, tokens are now [ -classdir D:\PAG\PAG-OUBL\mda/../CXF/src/main/webapp/WEB-INF/classes -all -allowElementReferences -verbose -exsh true -autoNameResolution D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl ], running through 35 options
+2016-05-02 12:39:15,691 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -classdir
+2016-05-02 12:39:15,691 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -fe
+2016-05-02 12:39:15,691 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -frontend
+2016-05-02 12:39:15,691 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -classdir
+2016-05-02 12:39:15,691 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -db
+2016-05-02 12:39:15,691 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -databinding
+2016-05-02 12:39:15,692 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -classdir
+2016-05-02 12:39:15,692 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -wv
+2016-05-02 12:39:15,692 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -classdir
+2016-05-02 12:39:15,692 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -p
+2016-05-02 12:39:15,692 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -classdir
+2016-05-02 12:39:15,692 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -sn
+2016-05-02 12:39:15,692 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -classdir
+2016-05-02 12:39:15,692 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -b
+2016-05-02 12:39:15,692 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -classdir
+2016-05-02 12:39:15,692 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -reserveClass
+2016-05-02 12:39:15,692 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -classdir
+2016-05-02 12:39:15,692 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -catalog
+2016-05-02 12:39:15,692 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -classdir
+2016-05-02 12:39:15,692 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -d
+2016-05-02 12:39:15,692 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -classdir
+2016-05-02 12:39:15,692 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -compile
+2016-05-02 12:39:15,692 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -classdir
+2016-05-02 12:39:15,692 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -classdir
+2016-05-02 12:39:15,692 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] Matches a switch!!!
+2016-05-02 12:39:15,692 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token -classdir
+2016-05-02 12:39:15,692 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token D:\PAG\PAG-OUBL\mda/../CXF/src/main/webapp/WEB-INF/classes
+2016-05-02 12:39:15,693 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] Setting argument value of option to D:\PAG\PAG-OUBL\mda/../CXF/src/main/webapp/WEB-INF/classes
+2016-05-02 12:39:15,693 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] Option classdir accepted the token
+2016-05-02 12:39:15,693 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Form] Args is available
+2016-05-02 12:39:15,693 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] Accepting token stream for optionGroup: options, tokens are now [ -all -allowElementReferences -verbose -exsh true -autoNameResolution D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl ], running through 35 options
+2016-05-02 12:39:15,693 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -all
+2016-05-02 12:39:15,693 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -fe
+2016-05-02 12:39:15,693 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -frontend
+2016-05-02 12:39:15,693 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -all
+2016-05-02 12:39:15,693 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -db
+2016-05-02 12:39:15,693 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -databinding
+2016-05-02 12:39:15,693 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -all
+2016-05-02 12:39:15,693 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -wv
+2016-05-02 12:39:15,693 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -all
+2016-05-02 12:39:15,693 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -p
+2016-05-02 12:39:15,693 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -all
+2016-05-02 12:39:15,693 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -sn
+2016-05-02 12:39:15,693 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -all
+2016-05-02 12:39:15,693 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -b
+2016-05-02 12:39:15,693 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -all
+2016-05-02 12:39:15,693 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -reserveClass
+2016-05-02 12:39:15,694 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -all
+2016-05-02 12:39:15,694 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -catalog
+2016-05-02 12:39:15,694 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -all
+2016-05-02 12:39:15,694 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -d
+2016-05-02 12:39:15,694 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -all
+2016-05-02 12:39:15,694 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -compile
+2016-05-02 12:39:15,694 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -all
+2016-05-02 12:39:15,694 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -classdir
+2016-05-02 12:39:15,694 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -all
+2016-05-02 12:39:15,694 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -impl
+2016-05-02 12:39:15,694 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -all
+2016-05-02 12:39:15,694 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -server
+2016-05-02 12:39:15,694 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -all
+2016-05-02 12:39:15,694 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -client
+2016-05-02 12:39:15,694 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -all
+2016-05-02 12:39:15,694 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -all
+2016-05-02 12:39:15,694 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] Matches a switch!!!
+2016-05-02 12:39:15,694 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token -all
+2016-05-02 12:39:15,694 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] Option all accepted the token
+2016-05-02 12:39:15,694 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Form] Args is available
+2016-05-02 12:39:15,694 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] Accepting token stream for optionGroup: options, tokens are now [ -allowElementReferences -verbose -exsh true -autoNameResolution D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl ], running through 35 options
+2016-05-02 12:39:15,694 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -allowElementReferences
+2016-05-02 12:39:15,695 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -fe
+2016-05-02 12:39:15,695 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -frontend
+2016-05-02 12:39:15,695 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -allowElementReferences
+2016-05-02 12:39:15,695 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -db
+2016-05-02 12:39:15,695 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -databinding
+2016-05-02 12:39:15,695 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -allowElementReferences
+2016-05-02 12:39:15,695 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -wv
+2016-05-02 12:39:15,695 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -allowElementReferences
+2016-05-02 12:39:15,695 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -p
+2016-05-02 12:39:15,695 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -allowElementReferences
+2016-05-02 12:39:15,695 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -sn
+2016-05-02 12:39:15,695 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -allowElementReferences
+2016-05-02 12:39:15,695 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -b
+2016-05-02 12:39:15,695 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -allowElementReferences
+2016-05-02 12:39:15,695 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -reserveClass
+2016-05-02 12:39:15,695 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -allowElementReferences
+2016-05-02 12:39:15,695 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -catalog
+2016-05-02 12:39:15,695 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -allowElementReferences
+2016-05-02 12:39:15,695 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -d
+2016-05-02 12:39:15,695 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -allowElementReferences
+2016-05-02 12:39:15,695 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -compile
+2016-05-02 12:39:15,695 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -allowElementReferences
+2016-05-02 12:39:15,695 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -classdir
+2016-05-02 12:39:15,696 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -allowElementReferences
+2016-05-02 12:39:15,696 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -impl
+2016-05-02 12:39:15,696 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -allowElementReferences
+2016-05-02 12:39:15,696 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -server
+2016-05-02 12:39:15,696 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -allowElementReferences
+2016-05-02 12:39:15,696 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -client
+2016-05-02 12:39:15,696 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -allowElementReferences
+2016-05-02 12:39:15,696 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -all
+2016-05-02 12:39:15,696 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -allowElementReferences
+2016-05-02 12:39:15,696 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -autoNameResolution
+2016-05-02 12:39:15,696 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -allowElementReferences
+2016-05-02 12:39:15,696 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -allowElementReferences
+2016-05-02 12:39:15,696 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] Matches a switch!!!
+2016-05-02 12:39:15,696 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token -allowElementReferences
+2016-05-02 12:39:15,696 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] Setting argument value of option to 
+2016-05-02 12:39:15,696 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -aer
+2016-05-02 12:39:15,696 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] Option allowElementReferences accepted the token
+2016-05-02 12:39:15,696 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Form] Args is available
+2016-05-02 12:39:15,696 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] Accepting token stream for optionGroup: options, tokens are now [ -verbose -exsh true -autoNameResolution D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl ], running through 35 options
+2016-05-02 12:39:15,696 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
+2016-05-02 12:39:15,696 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -fe
+2016-05-02 12:39:15,697 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -frontend
+2016-05-02 12:39:15,697 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
+2016-05-02 12:39:15,697 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -db
+2016-05-02 12:39:15,697 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -databinding
+2016-05-02 12:39:15,697 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
+2016-05-02 12:39:15,697 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -wv
+2016-05-02 12:39:15,697 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
+2016-05-02 12:39:15,697 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -p
+2016-05-02 12:39:15,697 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
+2016-05-02 12:39:15,697 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -sn
+2016-05-02 12:39:15,697 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
+2016-05-02 12:39:15,697 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -b
+2016-05-02 12:39:15,697 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
+2016-05-02 12:39:15,697 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -reserveClass
+2016-05-02 12:39:15,697 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
+2016-05-02 12:39:15,697 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -catalog
+2016-05-02 12:39:15,697 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
+2016-05-02 12:39:15,697 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -d
+2016-05-02 12:39:15,697 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
+2016-05-02 12:39:15,697 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -compile
+2016-05-02 12:39:15,697 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
+2016-05-02 12:39:15,697 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -classdir
+2016-05-02 12:39:15,698 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
+2016-05-02 12:39:15,698 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -impl
+2016-05-02 12:39:15,698 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
+2016-05-02 12:39:15,698 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -server
+2016-05-02 12:39:15,698 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
+2016-05-02 12:39:15,698 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -client
+2016-05-02 12:39:15,698 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
+2016-05-02 12:39:15,698 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -all
+2016-05-02 12:39:15,698 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
+2016-05-02 12:39:15,698 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -autoNameResolution
+2016-05-02 12:39:15,698 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
+2016-05-02 12:39:15,698 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -allowElementReferences
+2016-05-02 12:39:15,698 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -aer
+2016-05-02 12:39:15,698 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
+2016-05-02 12:39:15,698 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -defaultValues
+2016-05-02 12:39:15,698 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
+2016-05-02 12:39:15,698 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -ant
+2016-05-02 12:39:15,698 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
+2016-05-02 12:39:15,698 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -nexclude
+2016-05-02 12:39:15,698 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
+2016-05-02 12:39:15,698 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -exsh
+2016-05-02 12:39:15,698 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
+2016-05-02 12:39:15,698 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -noTypes
+2016-05-02 12:39:15,698 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
+2016-05-02 12:39:15,698 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -dns
+2016-05-02 12:39:15,698 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
+2016-05-02 12:39:15,699 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -dex
+2016-05-02 12:39:15,699 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
+2016-05-02 12:39:15,699 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -validate
+2016-05-02 12:39:15,699 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
+2016-05-02 12:39:15,699 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -keep
+2016-05-02 12:39:15,699 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
+2016-05-02 12:39:15,699 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -wsdlLocation
+2016-05-02 12:39:15,699 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
+2016-05-02 12:39:15,699 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -xjc
+2016-05-02 12:39:15,699 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
+2016-05-02 12:39:15,699 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -asyncMethods
+2016-05-02 12:39:15,699 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
+2016-05-02 12:39:15,699 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -bareMethods
+2016-05-02 12:39:15,699 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
+2016-05-02 12:39:15,699 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -mimeMethods
+2016-05-02 12:39:15,699 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
+2016-05-02 12:39:15,699 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -noAddressBinding
+2016-05-02 12:39:15,699 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
+2016-05-02 12:39:15,699 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -faultSerialVersionUID
+2016-05-02 12:39:15,699 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
+2016-05-02 12:39:15,699 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -exceptionSuper
+2016-05-02 12:39:15,699 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
+2016-05-02 12:39:15,699 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -mark-generated
+2016-05-02 12:39:15,699 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] No option accepted the token, returning
+2016-05-02 12:39:15,699 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] Accepting token stream for optionGroup: common_options, tokens are now [ -verbose -exsh true -autoNameResolution D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl ], running through 5 options
+2016-05-02 12:39:15,699 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
+2016-05-02 12:39:15,700 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -h
+2016-05-02 12:39:15,700 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -?
+2016-05-02 12:39:15,700 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -help
+2016-05-02 12:39:15,700 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
+2016-05-02 12:39:15,700 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -version
+2016-05-02 12:39:15,700 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -v
+2016-05-02 12:39:15,700 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -verbose
+2016-05-02 12:39:15,700 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -verbose
+2016-05-02 12:39:15,700 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] Matches a switch!!!
+2016-05-02 12:39:15,700 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token -verbose
+2016-05-02 12:39:15,700 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -V
+2016-05-02 12:39:15,700 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] Option verbose accepted the token
+2016-05-02 12:39:15,700 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Form] Args is available
+2016-05-02 12:39:15,700 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] Accepting token stream for optionGroup: options, tokens are now [ -exsh true -autoNameResolution D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl ], running through 35 options
+2016-05-02 12:39:15,700 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -exsh
+2016-05-02 12:39:15,700 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -fe
+2016-05-02 12:39:15,700 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -frontend
+2016-05-02 12:39:15,700 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -exsh
+2016-05-02 12:39:15,700 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -db
+2016-05-02 12:39:15,700 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -databinding
+2016-05-02 12:39:15,700 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -exsh
+2016-05-02 12:39:15,700 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -wv
+2016-05-02 12:39:15,700 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -exsh
+2016-05-02 12:39:15,700 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -p
+2016-05-02 12:39:15,700 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -exsh
+2016-05-02 12:39:15,700 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -sn
+2016-05-02 12:39:15,700 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -exsh
+2016-05-02 12:39:15,700 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -b
+2016-05-02 12:39:15,701 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -exsh
+2016-05-02 12:39:15,701 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -reserveClass
+2016-05-02 12:39:15,701 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -exsh
+2016-05-02 12:39:15,701 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -catalog
+2016-05-02 12:39:15,701 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -exsh
+2016-05-02 12:39:15,701 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -d
+2016-05-02 12:39:15,701 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -exsh
+2016-05-02 12:39:15,701 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -compile
+2016-05-02 12:39:15,701 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -exsh
+2016-05-02 12:39:15,701 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -classdir
+2016-05-02 12:39:15,701 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -exsh
+2016-05-02 12:39:15,701 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -impl
+2016-05-02 12:39:15,701 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -exsh
+2016-05-02 12:39:15,701 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -server
+2016-05-02 12:39:15,701 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -exsh
+2016-05-02 12:39:15,701 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -client
+2016-05-02 12:39:15,701 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -exsh
+2016-05-02 12:39:15,701 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -all
+2016-05-02 12:39:15,701 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -exsh
+2016-05-02 12:39:15,701 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -autoNameResolution
+2016-05-02 12:39:15,701 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -exsh
+2016-05-02 12:39:15,701 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -allowElementReferences
+2016-05-02 12:39:15,701 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -aer
+2016-05-02 12:39:15,701 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -exsh
+2016-05-02 12:39:15,701 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -defaultValues
+2016-05-02 12:39:15,701 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -exsh
+2016-05-02 12:39:15,701 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -ant
+2016-05-02 12:39:15,701 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -exsh
+2016-05-02 12:39:15,702 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -nexclude
+2016-05-02 12:39:15,702 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -exsh
+2016-05-02 12:39:15,702 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -exsh
+2016-05-02 12:39:15,702 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] Matches a switch!!!
+2016-05-02 12:39:15,702 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token -exsh
+2016-05-02 12:39:15,702 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token true
+2016-05-02 12:39:15,702 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] Setting argument value of option to true
+2016-05-02 12:39:15,702 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] Option exsoapheader accepted the token
+2016-05-02 12:39:15,702 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Form] Args is available
+2016-05-02 12:39:15,702 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] Accepting token stream for optionGroup: options, tokens are now [ -autoNameResolution D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl ], running through 35 options
+2016-05-02 12:39:15,702 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -autoNameResolution
+2016-05-02 12:39:15,702 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -fe
+2016-05-02 12:39:15,702 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -frontend
+2016-05-02 12:39:15,702 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -autoNameResolution
+2016-05-02 12:39:15,702 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -db
+2016-05-02 12:39:15,702 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -databinding
+2016-05-02 12:39:15,702 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -autoNameResolution
+2016-05-02 12:39:15,702 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -wv
+2016-05-02 12:39:15,702 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -autoNameResolution
+2016-05-02 12:39:15,702 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -p
+2016-05-02 12:39:15,702 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -autoNameResolution
+2016-05-02 12:39:15,702 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -sn
+2016-05-02 12:39:15,702 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -autoNameResolution
+2016-05-02 12:39:15,702 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -b
+2016-05-02 12:39:15,702 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -autoNameResolution
+2016-05-02 12:39:15,703 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -reserveClass
+2016-05-02 12:39:15,703 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -autoNameResolution
+2016-05-02 12:39:15,703 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -catalog
+2016-05-02 12:39:15,703 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -autoNameResolution
+2016-05-02 12:39:15,703 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -d
+2016-05-02 12:39:15,703 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -autoNameResolution
+2016-05-02 12:39:15,703 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -compile
+2016-05-02 12:39:15,703 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -autoNameResolution
+2016-05-02 12:39:15,703 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -classdir
+2016-05-02 12:39:15,703 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -autoNameResolution
+2016-05-02 12:39:15,703 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -impl
+2016-05-02 12:39:15,703 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -autoNameResolution
+2016-05-02 12:39:15,703 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -server
+2016-05-02 12:39:15,703 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -autoNameResolution
+2016-05-02 12:39:15,703 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -client
+2016-05-02 12:39:15,703 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -autoNameResolution
+2016-05-02 12:39:15,703 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -all
+2016-05-02 12:39:15,703 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token -autoNameResolution
+2016-05-02 12:39:15,703 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -autoNameResolution
+2016-05-02 12:39:15,703 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] Matches a switch!!!
+2016-05-02 12:39:15,703 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token -autoNameResolution
+2016-05-02 12:39:15,703 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] Option autoNameResolution accepted the token
+2016-05-02 12:39:15,703 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Form] Args is available
+2016-05-02 12:39:15,703 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] Accepting token stream for optionGroup: options, tokens are now [ D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl ], running through 35 options
+2016-05-02 12:39:15,703 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl
+2016-05-02 12:39:15,703 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -fe
+2016-05-02 12:39:15,703 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -frontend
+2016-05-02 12:39:15,703 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl
+2016-05-02 12:39:15,704 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -db
+2016-05-02 12:39:15,704 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -databinding
+2016-05-02 12:39:15,704 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl
+2016-05-02 12:39:15,704 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -wv
+2016-05-02 12:39:15,704 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl
+2016-05-02 12:39:15,704 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -p
+2016-05-02 12:39:15,704 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl
+2016-05-02 12:39:15,704 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -sn
+2016-05-02 12:39:15,704 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl
+2016-05-02 12:39:15,704 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -b
+2016-05-02 12:39:15,704 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl
+2016-05-02 12:39:15,704 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -reserveClass
+2016-05-02 12:39:15,704 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl
+2016-05-02 12:39:15,704 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -catalog
+2016-05-02 12:39:15,704 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl
+2016-05-02 12:39:15,704 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -d
+2016-05-02 12:39:15,704 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl
+2016-05-02 12:39:15,704 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -compile
+2016-05-02 12:39:15,704 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl
+2016-05-02 12:39:15,704 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -classdir
+2016-05-02 12:39:15,704 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl
+2016-05-02 12:39:15,704 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -impl
+2016-05-02 12:39:15,704 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl
+2016-05-02 12:39:15,704 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -server
+2016-05-02 12:39:15,704 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl
+2016-05-02 12:39:15,704 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -client
+2016-05-02 12:39:15,704 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl
+2016-05-02 12:39:15,704 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -all
+2016-05-02 12:39:15,704 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl
+2016-05-02 12:39:15,705 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -autoNameResolution
+2016-05-02 12:39:15,705 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl
+2016-05-02 12:39:15,705 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -allowElementReferences
+2016-05-02 12:39:15,705 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -aer
+2016-05-02 12:39:15,705 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl
+2016-05-02 12:39:15,705 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -defaultValues
+2016-05-02 12:39:15,705 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl
+2016-05-02 12:39:15,705 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -ant
+2016-05-02 12:39:15,705 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl
+2016-05-02 12:39:15,705 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -nexclude
+2016-05-02 12:39:15,705 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl
+2016-05-02 12:39:15,705 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -exsh
+2016-05-02 12:39:15,705 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl
+2016-05-02 12:39:15,705 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -noTypes
+2016-05-02 12:39:15,705 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl
+2016-05-02 12:39:15,705 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -dns
+2016-05-02 12:39:15,705 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl
+2016-05-02 12:39:15,705 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -dex
+2016-05-02 12:39:15,705 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl
+2016-05-02 12:39:15,705 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -validate
+2016-05-02 12:39:15,705 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl
+2016-05-02 12:39:15,705 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -keep
+2016-05-02 12:39:15,705 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl
+2016-05-02 12:39:15,705 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -wsdlLocation
+2016-05-02 12:39:15,705 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl
+2016-05-02 12:39:15,705 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -xjc
+2016-05-02 12:39:15,705 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl
+2016-05-02 12:39:15,705 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -asyncMethods
+2016-05-02 12:39:15,705 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl
+2016-05-02 12:39:15,706 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -bareMethods
+2016-05-02 12:39:15,706 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl
+2016-05-02 12:39:15,706 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -mimeMethods
+2016-05-02 12:39:15,706 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl
+2016-05-02 12:39:15,706 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -noAddressBinding
+2016-05-02 12:39:15,706 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl
+2016-05-02 12:39:15,706 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -faultSerialVersionUID
+2016-05-02 12:39:15,706 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl
+2016-05-02 12:39:15,706 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -exceptionSuper
+2016-05-02 12:39:15,706 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl
+2016-05-02 12:39:15,706 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -mark-generated
+2016-05-02 12:39:15,706 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] No option accepted the token, returning
+2016-05-02 12:39:15,706 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] Accepting token stream for optionGroup: common_options, tokens are now [ D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl ], running through 5 options
+2016-05-02 12:39:15,706 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl
+2016-05-02 12:39:15,706 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -h
+2016-05-02 12:39:15,706 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -?
+2016-05-02 12:39:15,706 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -help
+2016-05-02 12:39:15,706 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl
+2016-05-02 12:39:15,706 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -version
+2016-05-02 12:39:15,706 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -v
+2016-05-02 12:39:15,706 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl
+2016-05-02 12:39:15,706 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -verbose
+2016-05-02 12:39:15,706 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -V
+2016-05-02 12:39:15,706 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl
+2016-05-02 12:39:15,706 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -quiet
+2016-05-02 12:39:15,706 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -q
+2016-05-02 12:39:15,706 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -Q
+2016-05-02 12:39:15,706 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl
+2016-05-02 12:39:15,706 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] switchArg is -wsdlList
+2016-05-02 12:39:15,706 DEBUG [org.apache.cxf.tools.common.toolspec.parser.OptionGroup] No option accepted the token, returning
+2016-05-02 12:39:15,707 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2016-05-02 12:39:15,707 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
+2016-05-02 12:39:15,707 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2016-05-02 12:39:15,707 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
+2016-05-02 12:39:15,707 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2016-05-02 12:39:15,707 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
+2016-05-02 12:39:15,707 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=unbounded, numMatches currently 1
+2016-05-02 12:39:15,707 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
+2016-05-02 12:39:15,707 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=, numMatches currently 0
+2016-05-02 12:39:15,707 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
+2016-05-02 12:39:15,707 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=unbounded, numMatches currently 1
+2016-05-02 12:39:15,707 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
+2016-05-02 12:39:15,707 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=unbounded, numMatches currently 0
+2016-05-02 12:39:15,707 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
+2016-05-02 12:39:15,707 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2016-05-02 12:39:15,707 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
+2016-05-02 12:39:15,707 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 1
+2016-05-02 12:39:15,707 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
+2016-05-02 12:39:15,707 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2016-05-02 12:39:15,707 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
+2016-05-02 12:39:15,707 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 1
+2016-05-02 12:39:15,707 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
+2016-05-02 12:39:15,707 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2016-05-02 12:39:15,707 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
+2016-05-02 12:39:15,707 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2016-05-02 12:39:15,707 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
+2016-05-02 12:39:15,708 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2016-05-02 12:39:15,708 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
+2016-05-02 12:39:15,708 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 1
+2016-05-02 12:39:15,708 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
+2016-05-02 12:39:15,708 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 1
+2016-05-02 12:39:15,708 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
+2016-05-02 12:39:15,708 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 1
+2016-05-02 12:39:15,708 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
+2016-05-02 12:39:15,708 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2016-05-02 12:39:15,708 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
+2016-05-02 12:39:15,708 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2016-05-02 12:39:15,708 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
+2016-05-02 12:39:15,708 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=unbounded, numMatches currently 0
+2016-05-02 12:39:15,708 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
+2016-05-02 12:39:15,708 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 1
+2016-05-02 12:39:15,708 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
+2016-05-02 12:39:15,708 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2016-05-02 12:39:15,708 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
+2016-05-02 12:39:15,708 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2016-05-02 12:39:15,708 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
+2016-05-02 12:39:15,708 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2016-05-02 12:39:15,708 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
+2016-05-02 12:39:15,708 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2016-05-02 12:39:15,708 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
+2016-05-02 12:39:15,708 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2016-05-02 12:39:15,708 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
+2016-05-02 12:39:15,709 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2016-05-02 12:39:15,709 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
+2016-05-02 12:39:15,709 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=unbounded, numMatches currently 0
+2016-05-02 12:39:15,709 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
+2016-05-02 12:39:15,709 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=unbounded, numMatches currently 0
+2016-05-02 12:39:15,709 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
+2016-05-02 12:39:15,709 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=unbounded, numMatches currently 0
+2016-05-02 12:39:15,709 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
+2016-05-02 12:39:15,709 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=unbounded, numMatches currently 0
+2016-05-02 12:39:15,709 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
+2016-05-02 12:39:15,709 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2016-05-02 12:39:15,709 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
+2016-05-02 12:39:15,709 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2016-05-02 12:39:15,709 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
+2016-05-02 12:39:15,709 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2016-05-02 12:39:15,709 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
+2016-05-02 12:39:15,709 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2016-05-02 12:39:15,709 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
+2016-05-02 12:39:15,709 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2016-05-02 12:39:15,709 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
+2016-05-02 12:39:15,709 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=, numMatches currently 0
+2016-05-02 12:39:15,709 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
+2016-05-02 12:39:15,709 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=, numMatches currently 1
+2016-05-02 12:39:15,709 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
+2016-05-02 12:39:15,709 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=, numMatches currently 0
+2016-05-02 12:39:15,709 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
+2016-05-02 12:39:15,709 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] For this option, minOccurs= and maxOccurs=1, numMatches currently 0
+2016-05-02 12:39:15,709 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Option] isSatisfied() returning true
+2016-05-02 12:39:15,710 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Argument] Accepting token stream for argument: wsdlurl
+2016-05-02 12:39:15,710 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Peeking token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl
+2016-05-02 12:39:15,710 DEBUG [org.apache.cxf.tools.common.toolspec.parser.TokenInputStream] Reading token D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl
+2016-05-02 12:39:15,710 DEBUG [org.apache.cxf.tools.common.toolspec.parser.Form] Form default is returning true
+2016-05-02 12:39:15,862 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandLineParser] <command xmlns="http://cxf.apache.org/Xutil/Command" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://cxf.apache.org/Xutil/Command http://cxf.apache.org/schema/xutil/commnad.xsd">
 <option name="packagename">http://service.oubl.vis.com/=com.vis.oubl.service</option>
-<option name="binding">D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/bindings/MedicalHistoryService.xjb</option>
+<option name="binding">D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/bindings/InventoryService.xjb</option>
 <option name="outputdir">D:\PAG\PAG-OUBL\mda/../CXF/target/src/main/java</option>
 <option name="classdir">D:\PAG\PAG-OUBL\mda/../CXF/src/main/webapp/WEB-INF/classes</option>
 <option name="all"/>
@@ -578,48 +578,48 @@
 <option name="verbose"/>
 <option name="exsoapheader">true</option>
 <option name="autoNameResolution"/>
-<argument name="wsdlurl">D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl</argument>
+<argument name="wsdlurl">D:\PAG\PAG-OUBL\mda/../webservice/src/main/webapp/wsdl/InventoryService.wsdl</argument>
 </command>
 
-2016-03-19 08:16:47,281 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameters for help
-2016-03-19 08:16:47,353 DEBUG [org.apache.cxf.tools.common.toolspec.ToolSpec] Element with id help is [option: null]
-2016-03-19 08:16:47,354 DEBUG [org.apache.cxf.tools.common.toolspec.ToolSpec] local name is option
-2016-03-19 08:16:47,354 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameters for version
-2016-03-19 08:16:47,383 DEBUG [org.apache.cxf.tools.common.toolspec.ToolSpec] Element with id version is [option: null]
-2016-03-19 08:16:47,383 DEBUG [org.apache.cxf.tools.common.toolspec.ToolSpec] local name is option
-2016-03-19 08:16:47,383 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameters for verbose
-2016-03-19 08:16:47,389 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameters for wsdlurl
-2016-03-19 08:16:47,389 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameters for help
-2016-03-19 08:16:47,415 DEBUG [org.apache.cxf.tools.common.toolspec.ToolSpec] Element with id help is [option: null]
-2016-03-19 08:16:47,415 DEBUG [org.apache.cxf.tools.common.toolspec.ToolSpec] local name is option
-2016-03-19 08:16:47,415 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameters for version
-2016-03-19 08:16:47,430 DEBUG [org.apache.cxf.tools.common.toolspec.ToolSpec] Element with id version is [option: null]
-2016-03-19 08:16:47,430 DEBUG [org.apache.cxf.tools.common.toolspec.ToolSpec] local name is option
-2016-03-19 08:16:47,431 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameters for packagename
-2016-03-19 08:16:47,431 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameters for binding
-2016-03-19 08:16:47,431 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameter outputdir
-2016-03-19 08:16:47,431 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameters for outputdir
-2016-03-19 08:16:47,432 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameter classdir
-2016-03-19 08:16:47,432 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameters for classdir
-2016-03-19 08:16:47,432 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameter all
-2016-03-19 08:16:47,432 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameters for all
-2016-03-19 08:16:47,432 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameter allowElementReferences
-2016-03-19 08:16:47,432 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameters for allowElementReferences
-2016-03-19 08:16:47,433 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameter verbose
-2016-03-19 08:16:47,433 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameters for verbose
-2016-03-19 08:16:47,433 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameter exsoapheader
-2016-03-19 08:16:47,433 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameters for exsoapheader
-2016-03-19 08:16:47,433 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameter autoNameResolution
-2016-03-19 08:16:47,434 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameters for autoNameResolution
-2016-03-19 08:16:47,434 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameter wsdlurl
-2016-03-19 08:16:47,434 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameters for wsdlurl
-2016-03-19 08:16:48,312 DEBUG [org.apache.cxf.wsdl11.WSDLDefinitionBuilder] Registering : org.apache.cxf.binding.xml.wsdl11.HttpAddressPlugin for type: xml-javax.wsdl.Port
-2016-03-19 08:16:48,315 DEBUG [org.apache.cxf.wsdl11.WSDLDefinitionBuilder] Registering : org.apache.cxf.binding.soap.wsdl11.SoapAddressPlugin for type: soap-javax.wsdl.Port
-2016-03-19 08:16:48,316 DEBUG [org.apache.cxf.wsdl11.WSDLDefinitionBuilder] Registering : org.apache.cxf.binding.xml.wsdl11.XmlIoPlugin for type: xml-javax.wsdl.BindingOutput
-2016-03-19 08:16:48,317 DEBUG [org.apache.cxf.wsdl11.WSDLDefinitionBuilder] Registering : org.apache.cxf.binding.xml.wsdl11.XmlBindingPlugin for type: xml-javax.wsdl.Binding
-2016-03-19 08:16:48,318 DEBUG [org.apache.cxf.wsdl11.WSDLDefinitionBuilder] Registering : org.apache.cxf.transport.jms.wsdl11.JmsTransportPlugin for type: jms-javax.wsdl.Port
-2016-03-19 08:16:48,319 DEBUG [org.apache.cxf.wsdl11.WSDLDefinitionBuilder] Registering : org.apache.cxf.binding.xml.wsdl11.XmlIoPlugin for type: xml-javax.wsdl.BindingInput
-2016-03-19 08:16:48,855 DEBUG [org.apache.cxf.tools.validator.internal.SchemaValidator] Validate wsdl file:/D:/PAG/PAG-OUBL/webservice/src/main/webapp/wsdl/MedicalHistoryService.wsdl
-2016-03-19 08:16:52,228 DEBUG [org.apache.cxf.tools.wsdlto.WSDLToJavaContainer] Found service validator : org.apache.cxf.tools.wsdlto.frontend.jaxws.validator.WrapperStyleNameCollisionValidator
-2016-03-19 08:16:52,238 DEBUG [org.apache.cxf.tools.wsdlto.WSDLToJavaContainer] Found service validator : org.apache.cxf.binding.xml.XMLFormatValidator
-2016-03-19 08:16:52,240 DEBUG [org.apache.cxf.tools.wsdlto.WSDLToJavaContainer] Found service validator : org.apache.cxf.tools.wsdlto.frontend.jaxws.validator.UniqueBodyValidator
+2016-05-02 12:39:15,863 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameters for help
+2016-05-02 12:39:15,877 DEBUG [org.apache.cxf.tools.common.toolspec.ToolSpec] Element with id help is [option: null]
+2016-05-02 12:39:15,877 DEBUG [org.apache.cxf.tools.common.toolspec.ToolSpec] local name is option
+2016-05-02 12:39:15,877 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameters for version
+2016-05-02 12:39:15,885 DEBUG [org.apache.cxf.tools.common.toolspec.ToolSpec] Element with id version is [option: null]
+2016-05-02 12:39:15,885 DEBUG [org.apache.cxf.tools.common.toolspec.ToolSpec] local name is option
+2016-05-02 12:39:15,885 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameters for verbose
+2016-05-02 12:39:15,886 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameters for wsdlurl
+2016-05-02 12:39:15,886 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameters for help
+2016-05-02 12:39:15,893 DEBUG [org.apache.cxf.tools.common.toolspec.ToolSpec] Element with id help is [option: null]
+2016-05-02 12:39:15,893 DEBUG [org.apache.cxf.tools.common.toolspec.ToolSpec] local name is option
+2016-05-02 12:39:15,893 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameters for version
+2016-05-02 12:39:15,900 DEBUG [org.apache.cxf.tools.common.toolspec.ToolSpec] Element with id version is [option: null]
+2016-05-02 12:39:15,900 DEBUG [org.apache.cxf.tools.common.toolspec.ToolSpec] local name is option
+2016-05-02 12:39:15,900 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameters for packagename
+2016-05-02 12:39:15,900 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameters for binding
+2016-05-02 12:39:15,901 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameter outputdir
+2016-05-02 12:39:15,901 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameters for outputdir
+2016-05-02 12:39:15,901 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameter classdir
+2016-05-02 12:39:15,901 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameters for classdir
+2016-05-02 12:39:15,901 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameter all
+2016-05-02 12:39:15,901 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameters for all
+2016-05-02 12:39:15,901 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameter allowElementReferences
+2016-05-02 12:39:15,901 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameters for allowElementReferences
+2016-05-02 12:39:15,901 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameter verbose
+2016-05-02 12:39:15,901 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameters for verbose
+2016-05-02 12:39:15,901 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameter exsoapheader
+2016-05-02 12:39:15,901 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameters for exsoapheader
+2016-05-02 12:39:15,901 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameter autoNameResolution
+2016-05-02 12:39:15,901 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameters for autoNameResolution
+2016-05-02 12:39:15,901 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameter wsdlurl
+2016-05-02 12:39:15,901 DEBUG [org.apache.cxf.tools.common.toolspec.parser.CommandDocument] Getting parameters for wsdlurl
+2016-05-02 12:39:16,073 DEBUG [org.apache.cxf.wsdl11.WSDLDefinitionBuilder] Registering : org.apache.cxf.binding.xml.wsdl11.HttpAddressPlugin for type: xml-javax.wsdl.Port
+2016-05-02 12:39:16,074 DEBUG [org.apache.cxf.wsdl11.WSDLDefinitionBuilder] Registering : org.apache.cxf.binding.soap.wsdl11.SoapAddressPlugin for type: soap-javax.wsdl.Port
+2016-05-02 12:39:16,074 DEBUG [org.apache.cxf.wsdl11.WSDLDefinitionBuilder] Registering : org.apache.cxf.binding.xml.wsdl11.XmlIoPlugin for type: xml-javax.wsdl.BindingOutput
+2016-05-02 12:39:16,074 DEBUG [org.apache.cxf.wsdl11.WSDLDefinitionBuilder] Registering : org.apache.cxf.binding.xml.wsdl11.XmlBindingPlugin for type: xml-javax.wsdl.Binding
+2016-05-02 12:39:16,074 DEBUG [org.apache.cxf.wsdl11.WSDLDefinitionBuilder] Registering : org.apache.cxf.transport.jms.wsdl11.JmsTransportPlugin for type: jms-javax.wsdl.Port
+2016-05-02 12:39:16,075 DEBUG [org.apache.cxf.wsdl11.WSDLDefinitionBuilder] Registering : org.apache.cxf.binding.xml.wsdl11.XmlIoPlugin for type: xml-javax.wsdl.BindingInput
+2016-05-02 12:39:16,165 DEBUG [org.apache.cxf.tools.validator.internal.SchemaValidator] Validate wsdl file:/D:/PAG/PAG-OUBL/webservice/src/main/webapp/wsdl/InventoryService.wsdl
+2016-05-02 12:39:16,604 DEBUG [org.apache.cxf.tools.wsdlto.WSDLToJavaContainer] Found service validator : org.apache.cxf.tools.wsdlto.frontend.jaxws.validator.WrapperStyleNameCollisionValidator
+2016-05-02 12:39:16,606 DEBUG [org.apache.cxf.tools.wsdlto.WSDLToJavaContainer] Found service validator : org.apache.cxf.binding.xml.XMLFormatValidator
+2016-05-02 12:39:16,606 DEBUG [org.apache.cxf.tools.wsdlto.WSDLToJavaContainer] Found service validator : org.apache.cxf.tools.wsdlto.frontend.jaxws.validator.UniqueBodyValidator

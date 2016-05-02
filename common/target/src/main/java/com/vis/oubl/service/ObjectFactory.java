@@ -30,35 +30,35 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link GetCustomer }
+     * Create an instance of {@link GetAllRFIDResponse }
      * 
      */
-    public GetCustomer createGetCustomer() {
-        return new GetCustomer();
+    public GetAllRFIDResponse createGetAllRFIDResponse() {
+        return new GetAllRFIDResponse();
     }
 
     /**
-     * Create an instance of {@link GetCustomerResponse }
+     * Create an instance of {@link GetAllItems }
      * 
      */
-    public GetCustomerResponse createGetCustomerResponse() {
-        return new GetCustomerResponse();
+    public GetAllItems createGetAllItems() {
+        return new GetAllItems();
     }
 
     /**
-     * Create an instance of {@link GetRedPlaneServiceResponse }
+     * Create an instance of {@link GetAllRFID }
      * 
      */
-    public GetRedPlaneServiceResponse createGetRedPlaneServiceResponse() {
-        return new GetRedPlaneServiceResponse();
+    public GetAllRFID createGetAllRFID() {
+        return new GetAllRFID();
     }
 
     /**
-     * Create an instance of {@link GetRedPlaneService }
+     * Create an instance of {@link GetAllItemsResponse }
      * 
      */
-    public GetRedPlaneService createGetRedPlaneService() {
-        return new GetRedPlaneService();
+    public GetAllItemsResponse createGetAllItemsResponse() {
+        return new GetAllItemsResponse();
     }
 
 }

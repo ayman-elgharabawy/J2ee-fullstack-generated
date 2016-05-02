@@ -5,8 +5,8 @@
 //
 package com.vis.oubl;
 
-import com.vis.oubl.service.My010CustomerService;
-import com.vis.oubl.service.RedPlaneService;
+import com.vis.oubl.service.ItemService;
+import com.vis.oubl.service.RFIDService;
 import org.springframework.beans.factory.access.BeanFactoryLocator;
 import org.springframework.beans.factory.access.BeanFactoryReference;
 import org.springframework.context.ApplicationContext;
@@ -136,23 +136,23 @@ public class ServiceLocator
     }
 
     /**
-     * Gets an instance of {@link My010CustomerService}.
-     * @return My010CustomerService from getContext().getBean("my010CustomerService")
+     * Gets an instance of {@link ItemService}.
+     * @return ItemService from getContext().getBean("itemService")
      */
-    public final My010CustomerService getMy010CustomerService()
+    public final ItemService getItemService()
     {
-        return (My010CustomerService)
-            getContext().getBean("my010CustomerService");
+        return (ItemService)
+            getContext().getBean("itemService");
     }
 
     /**
-     * Gets an instance of {@link RedPlaneService}.
-     * @return RedPlaneService from getContext().getBean("redPlaneService")
+     * Gets an instance of {@link RFIDService}.
+     * @return RFIDService from getContext().getBean("rFIDService")
      */
-    public final RedPlaneService getRedPlaneService()
+    public final RFIDService getRFIDService()
     {
-        return (RedPlaneService)
-            getContext().getBean("redPlaneService");
+        return (RFIDService)
+            getContext().getBean("rFIDService");
     }
 
     /**

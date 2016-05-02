@@ -17,8 +17,15 @@
         <property name="sourceList">
             <list>
                 <!-- applicationContext hibernateMappingLocations merge-point -->
-                <value>classpath:com/vis/oubl/domain/My010Customer.hbm.xml</value>
-                <value>classpath:com/vis/oubl/domain/RedPlaneService.hbm.xml</value>
+                <value>classpath:com/vis/oubl/domain/Item.hbm.xml</value>
+                <value>classpath:com/vis/oubl/domain/Store.hbm.xml</value>
+                <value>classpath:com/vis/oubl/domain/Transaction.hbm.xml</value>
+                <value>classpath:com/vis/oubl/domain/RFID.hbm.xml</value>
+                <value>classpath:com/vis/oubl/domain/Supplier.hbm.xml</value>
+                <value>classpath:com/vis/oubl/domain/PhysicalCounting.hbm.xml</value>
+                <value>classpath:com/vis/oubl/domain/Customer.hbm.xml</value>
+                <value>classpath:com/vis/oubl/domain/SalesRecusition.hbm.xml</value>
+                <value>classpath:com/vis/oubl/domain/PricePlan.hbm.xml</value>
             </list>
          </property>
     </bean>
@@ -50,15 +57,15 @@
         <!-- applicationContext hibernateInterceptor merge-point -->
     </bean>
 
-    <bean id="com.vis.oubl.domain.My010CustomerDaoImpl" class="com.vis.oubl.domain.My010CustomerDaoImpl">
+    <bean id="com.vis.oubl.domain.ItemDaoImpl" class="com.vis.oubl.domain.ItemDaoImpl">
         <property name="sessionFactory" ref="sessionFactory"/>
-        <!-- My010Customer entity property merge-point -->
+        <!-- Item entity property merge-point -->
     </bean>
 
-    <!-- My010Customer Entity Proxy with inner My010Customer Entity implementation -->
-    <bean id="my010CustomerDao" class="org.springframework.aop.framework.ProxyFactoryBean">
-        <property name="target" ref="com.vis.oubl.domain.My010CustomerDaoImpl"/>
-        <property name="proxyInterfaces" value="com.vis.oubl.domain.My010CustomerDao"/>
+    <!-- Item Entity Proxy with inner Item Entity implementation -->
+    <bean id="itemDao" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="target" ref="com.vis.oubl.domain.ItemDaoImpl"/>
+        <property name="proxyInterfaces" value="com.vis.oubl.domain.ItemDao"/>
         <property name="interceptorNames">
             <list>
                 <value>hibernateInterceptor</value>
@@ -66,15 +73,127 @@
         </property>
     </bean>
 
-    <bean id="com.vis.oubl.domain.RedPlaneServiceDaoImpl" class="com.vis.oubl.domain.RedPlaneServiceDaoImpl">
+    <bean id="com.vis.oubl.domain.StoreDaoImpl" class="com.vis.oubl.domain.StoreDaoImpl">
         <property name="sessionFactory" ref="sessionFactory"/>
-        <!-- RedPlaneService entity property merge-point -->
+        <!-- Store entity property merge-point -->
     </bean>
 
-    <!-- RedPlaneService Entity Proxy with inner RedPlaneService Entity implementation -->
-    <bean id="redPlaneServiceDao" class="org.springframework.aop.framework.ProxyFactoryBean">
-        <property name="target" ref="com.vis.oubl.domain.RedPlaneServiceDaoImpl"/>
-        <property name="proxyInterfaces" value="com.vis.oubl.domain.RedPlaneServiceDao"/>
+    <!-- Store Entity Proxy with inner Store Entity implementation -->
+    <bean id="storeDao" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="target" ref="com.vis.oubl.domain.StoreDaoImpl"/>
+        <property name="proxyInterfaces" value="com.vis.oubl.domain.StoreDao"/>
+        <property name="interceptorNames">
+            <list>
+                <value>hibernateInterceptor</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="com.vis.oubl.domain.TransactionDaoImpl" class="com.vis.oubl.domain.TransactionDaoImpl">
+        <property name="sessionFactory" ref="sessionFactory"/>
+        <!-- Transaction entity property merge-point -->
+    </bean>
+
+    <!-- Transaction Entity Proxy with inner Transaction Entity implementation -->
+    <bean id="transactionDao" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="target" ref="com.vis.oubl.domain.TransactionDaoImpl"/>
+        <property name="proxyInterfaces" value="com.vis.oubl.domain.TransactionDao"/>
+        <property name="interceptorNames">
+            <list>
+                <value>hibernateInterceptor</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="com.vis.oubl.domain.RFIDDaoImpl" class="com.vis.oubl.domain.RFIDDaoImpl">
+        <property name="sessionFactory" ref="sessionFactory"/>
+        <!-- RFID entity property merge-point -->
+    </bean>
+
+    <!-- RFID Entity Proxy with inner RFID Entity implementation -->
+    <bean id="rFIDDao" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="target" ref="com.vis.oubl.domain.RFIDDaoImpl"/>
+        <property name="proxyInterfaces" value="com.vis.oubl.domain.RFIDDao"/>
+        <property name="interceptorNames">
+            <list>
+                <value>hibernateInterceptor</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="com.vis.oubl.domain.SupplierDaoImpl" class="com.vis.oubl.domain.SupplierDaoImpl">
+        <property name="sessionFactory" ref="sessionFactory"/>
+        <!-- Supplier entity property merge-point -->
+    </bean>
+
+    <!-- Supplier Entity Proxy with inner Supplier Entity implementation -->
+    <bean id="supplierDao" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="target" ref="com.vis.oubl.domain.SupplierDaoImpl"/>
+        <property name="proxyInterfaces" value="com.vis.oubl.domain.SupplierDao"/>
+        <property name="interceptorNames">
+            <list>
+                <value>hibernateInterceptor</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="com.vis.oubl.domain.PhysicalCountingDaoImpl" class="com.vis.oubl.domain.PhysicalCountingDaoImpl">
+        <property name="sessionFactory" ref="sessionFactory"/>
+        <!-- PhysicalCounting entity property merge-point -->
+    </bean>
+
+    <!-- PhysicalCounting Entity Proxy with inner PhysicalCounting Entity implementation -->
+    <bean id="physicalCountingDao" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="target" ref="com.vis.oubl.domain.PhysicalCountingDaoImpl"/>
+        <property name="proxyInterfaces" value="com.vis.oubl.domain.PhysicalCountingDao"/>
+        <property name="interceptorNames">
+            <list>
+                <value>hibernateInterceptor</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="com.vis.oubl.domain.CustomerDaoImpl" class="com.vis.oubl.domain.CustomerDaoImpl">
+        <property name="sessionFactory" ref="sessionFactory"/>
+        <!-- Customer entity property merge-point -->
+    </bean>
+
+    <!-- Customer Entity Proxy with inner Customer Entity implementation -->
+    <bean id="customerDao" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="target" ref="com.vis.oubl.domain.CustomerDaoImpl"/>
+        <property name="proxyInterfaces" value="com.vis.oubl.domain.CustomerDao"/>
+        <property name="interceptorNames">
+            <list>
+                <value>hibernateInterceptor</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="com.vis.oubl.domain.SalesRecusitionDaoImpl" class="com.vis.oubl.domain.SalesRecusitionDaoImpl">
+        <property name="sessionFactory" ref="sessionFactory"/>
+        <!-- SalesRecusition entity property merge-point -->
+    </bean>
+
+    <!-- SalesRecusition Entity Proxy with inner SalesRecusition Entity implementation -->
+    <bean id="salesRecusitionDao" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="target" ref="com.vis.oubl.domain.SalesRecusitionDaoImpl"/>
+        <property name="proxyInterfaces" value="com.vis.oubl.domain.SalesRecusitionDao"/>
+        <property name="interceptorNames">
+            <list>
+                <value>hibernateInterceptor</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="com.vis.oubl.domain.PricePlanDaoImpl" class="com.vis.oubl.domain.PricePlanDaoImpl">
+        <property name="sessionFactory" ref="sessionFactory"/>
+        <!-- PricePlan entity property merge-point -->
+    </bean>
+
+    <!-- PricePlan Entity Proxy with inner PricePlan Entity implementation -->
+    <bean id="pricePlanDao" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="target" ref="com.vis.oubl.domain.PricePlanDaoImpl"/>
+        <property name="proxyInterfaces" value="com.vis.oubl.domain.PricePlanDao"/>
         <property name="interceptorNames">
             <list>
                 <value>hibernateInterceptor</value>
@@ -89,28 +208,22 @@
         <property name="transactionManager" ref="transactionManager"/>
         <property name="transactionAttributeSource">
             <value>
-                com.vis.oubl.service.My010CustomerService.getCustomernfoByMobileNumber=PROPAGATION_REQUIRED
-                com.vis.oubl.service.My010CustomerService.getAllCustomers=PROPAGATION_REQUIRED
-                com.vis.oubl.service.My010CustomerService.getCustomerById=PROPAGATION_REQUIRED
-                com.vis.oubl.service.My010CustomerService.createCustomer=PROPAGATION_REQUIRED
-                com.vis.oubl.service.My010CustomerService.editCustomer=PROPAGATION_REQUIRED
-                com.vis.oubl.service.My010CustomerService.deleteCustomer=PROPAGATION_REQUIRED
-                com.vis.oubl.service.My010CustomerService.getBalance=PROPAGATION_REQUIRED
-                com.vis.oubl.service.RedPlaneService.getRedPlanerService=PROPAGATION_REQUIRED
+                com.vis.oubl.service.ItemService.getAllItems=PROPAGATION_REQUIRED
+                com.vis.oubl.service.RFIDService.getAllRFID=PROPAGATION_REQUIRED
             </value>
         </property>
     <!-- applicationContext serviceTransactionInterceptor merge-point -->
     </bean>
 
-    <bean id="com.vis.oubl.service.My010CustomerServiceImpl" class="com.vis.oubl.service.My010CustomerServiceImpl" >
-        <property name="my010CustomerDao" ref="my010CustomerDao"/>
-        <!-- My010CustomerService service property merge-point -->
+    <bean id="com.vis.oubl.service.ItemServiceImpl" class="com.vis.oubl.service.ItemServiceImpl" >
+        <property name="itemDao" ref="itemDao"/>
+        <!-- ItemService service property merge-point -->
     </bean>
 
-    <!-- My010CustomerService Service Proxy with inner My010CustomerService Service Implementation -->
-    <bean id="my010CustomerService" class="org.springframework.aop.framework.ProxyFactoryBean">
-        <property name="target" ref="com.vis.oubl.service.My010CustomerServiceImpl"/>
-        <property name="proxyInterfaces" value="com.vis.oubl.service.My010CustomerService"/>
+    <!-- ItemService Service Proxy with inner ItemService Service Implementation -->
+    <bean id="itemService" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="target" ref="com.vis.oubl.service.ItemServiceImpl"/>
+        <property name="proxyInterfaces" value="com.vis.oubl.service.ItemService"/>
         <property name="interceptorNames">
             <list>
                 <value>serviceTransactionInterceptor</value>
@@ -119,15 +232,15 @@
         </property>
     </bean>
 
-    <bean id="com.vis.oubl.service.RedPlaneServiceImpl" class="com.vis.oubl.service.RedPlaneServiceImpl" >
-        <property name="redPlaneServiceDao" ref="redPlaneServiceDao"/>
-        <!-- RedPlaneService service property merge-point -->
+    <bean id="com.vis.oubl.service.RFIDServiceImpl" class="com.vis.oubl.service.RFIDServiceImpl" >
+        <property name="rFIDDao" ref="rFIDDao"/>
+        <!-- RFIDService service property merge-point -->
     </bean>
 
-    <!-- RedPlaneService Service Proxy with inner RedPlaneService Service Implementation -->
-    <bean id="redPlaneService" class="org.springframework.aop.framework.ProxyFactoryBean">
-        <property name="target" ref="com.vis.oubl.service.RedPlaneServiceImpl"/>
-        <property name="proxyInterfaces" value="com.vis.oubl.service.RedPlaneService"/>
+    <!-- RFIDService Service Proxy with inner RFIDService Service Implementation -->
+    <bean id="rFIDService" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="target" ref="com.vis.oubl.service.RFIDServiceImpl"/>
+        <property name="proxyInterfaces" value="com.vis.oubl.service.RFIDService"/>
         <property name="interceptorNames">
             <list>
                 <value>serviceTransactionInterceptor</value>

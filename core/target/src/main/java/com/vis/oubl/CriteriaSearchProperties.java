@@ -5,8 +5,15 @@
 //
 package com.vis.oubl;
 
-import com.vis.oubl.domain.My010CustomerImpl;
-import com.vis.oubl.domain.RedPlaneServiceImpl;
+import com.vis.oubl.domain.CustomerImpl;
+import com.vis.oubl.domain.ItemImpl;
+import com.vis.oubl.domain.PhysicalCountingImpl;
+import com.vis.oubl.domain.PricePlanImpl;
+import com.vis.oubl.domain.RFIDImpl;
+import com.vis.oubl.domain.SalesRecusitionImpl;
+import com.vis.oubl.domain.StoreImpl;
+import com.vis.oubl.domain.SupplierImpl;
+import com.vis.oubl.domain.TransactionImpl;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
@@ -29,33 +36,131 @@ public class CriteriaSearchProperties
 
     static
     {
-        initializeMy010Customer1();
-        initializeRedPlaneService2();
+        initializeItem1();
+        initializeStore2();
+        initializeTransaction3();
+        initializeRFID4();
+        initializeSupplier5();
+        initializePhysicalCounting6();
+        initializeCustomer7();
+        initializeSalesRecusition8();
+        initializePricePlan9();
     }
 
-    private static final void initializeMy010Customer1()
+    private static final void initializeItem1()
     {
         embeddedValueNamesByType.put(
-            My010CustomerImpl.class,
+            ItemImpl.class,
             null);
         embeddedValuesByType.put(
-            My010CustomerImpl.class,
+            ItemImpl.class,
             null);
         navigableAssociationEndsByType.put(
-            My010CustomerImpl.class,
+            ItemImpl.class,
             null);
     }
 
-    private static final void initializeRedPlaneService2()
+    private static final void initializeStore2()
     {
         embeddedValueNamesByType.put(
-            RedPlaneServiceImpl.class,
+            StoreImpl.class,
             null);
         embeddedValuesByType.put(
-            RedPlaneServiceImpl.class,
+            StoreImpl.class,
             null);
         navigableAssociationEndsByType.put(
-            RedPlaneServiceImpl.class,
+            StoreImpl.class,
+            null);
+    }
+
+    private static final void initializeTransaction3()
+    {
+        embeddedValueNamesByType.put(
+            TransactionImpl.class,
+            null);
+        embeddedValuesByType.put(
+            TransactionImpl.class,
+            null);
+        navigableAssociationEndsByType.put(
+            TransactionImpl.class,
+            null);
+    }
+
+    private static final void initializeRFID4()
+    {
+        embeddedValueNamesByType.put(
+            RFIDImpl.class,
+            null);
+        embeddedValuesByType.put(
+            RFIDImpl.class,
+            null);
+        navigableAssociationEndsByType.put(
+            RFIDImpl.class,
+            null);
+    }
+
+    private static final void initializeSupplier5()
+    {
+        embeddedValueNamesByType.put(
+            SupplierImpl.class,
+            null);
+        embeddedValuesByType.put(
+            SupplierImpl.class,
+            null);
+        navigableAssociationEndsByType.put(
+            SupplierImpl.class,
+            null);
+    }
+
+    private static final void initializePhysicalCounting6()
+    {
+        embeddedValueNamesByType.put(
+            PhysicalCountingImpl.class,
+            null);
+        embeddedValuesByType.put(
+            PhysicalCountingImpl.class,
+            null);
+        navigableAssociationEndsByType.put(
+            PhysicalCountingImpl.class,
+            null);
+    }
+
+    private static final void initializeCustomer7()
+    {
+        embeddedValueNamesByType.put(
+            CustomerImpl.class,
+            null);
+        embeddedValuesByType.put(
+            CustomerImpl.class,
+            null);
+        navigableAssociationEndsByType.put(
+            CustomerImpl.class,
+            null);
+    }
+
+    private static final void initializeSalesRecusition8()
+    {
+        embeddedValueNamesByType.put(
+            SalesRecusitionImpl.class,
+            null);
+        embeddedValuesByType.put(
+            SalesRecusitionImpl.class,
+            null);
+        navigableAssociationEndsByType.put(
+            SalesRecusitionImpl.class,
+            null);
+    }
+
+    private static final void initializePricePlan9()
+    {
+        embeddedValueNamesByType.put(
+            PricePlanImpl.class,
+            null);
+        embeddedValuesByType.put(
+            PricePlanImpl.class,
+            null);
+        navigableAssociationEndsByType.put(
+            PricePlanImpl.class,
             null);
     }
 
