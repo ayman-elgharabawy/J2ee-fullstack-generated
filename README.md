@@ -1,11 +1,12 @@
 **A n d r o M D A  -  3.4 -Complete J2ee Stack (Hibernate , Spring , Rest)**
+==============
 
    <br>
 <img  src="https://github.com/ayman-elgharabawy/Andromda-Hibernate-ejb-spring-rest-fullstack-/blob/master/diagram1.jpg?raw=true" />
 <br>
 
 
-    Magic Draw 11.5 (or above) is supported via its 'Export to EMF-UML2' feature. You'll notice
+    Magic Draw 9.5 is used for this project You'll notice
     that the andromda.xml is already configured to load these exported files. It expects
     that a model called 'reportviewer' has been created within your Magic Draw model.
 
@@ -146,6 +147,7 @@ the result will be
  
 
 *Notes:*
+--------------
 
 -In Modeling the webservice make the name of webservice class is the same of base url
     <br>
