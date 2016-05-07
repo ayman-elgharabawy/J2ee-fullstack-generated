@@ -148,6 +148,6 @@ Notes:
 
 -In Modeling the webservice make the name of webservice class is the same of base url
     <br>
-<img  src="https://github.com/ayman-elgharabawy/Andromda-Hibernate-ejb-spring-rest-fullstack-/blob/master/webservice.jpeg?raw=true" />
+<img  src="https://github.com/ayman-elgharabawy/Andromda-Hibernate-ejb-spring-rest-fullstack-/blob/master/webservice.jpg?raw=true" />
 <br>
 Make sure the name of the webservice class is the same name of the anromda_REST_path and case sensitive
