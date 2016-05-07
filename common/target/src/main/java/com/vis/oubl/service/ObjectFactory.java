@@ -30,14 +30,6 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link GetAllRFIDResponse }
-     * 
-     */
-    public GetAllRFIDResponse createGetAllRFIDResponse() {
-        return new GetAllRFIDResponse();
-    }
-
-    /**
      * Create an instance of {@link GetAllItems }
      * 
      */
@@ -51,6 +43,14 @@ public class ObjectFactory {
      */
     public GetAllRFID createGetAllRFID() {
         return new GetAllRFID();
+    }
+
+    /**
+     * Create an instance of {@link GetAllRFIDResponse }
+     * 
+     */
+    public GetAllRFIDResponse createGetAllRFIDResponse() {
+        return new GetAllRFIDResponse();
     }
 
     /**
