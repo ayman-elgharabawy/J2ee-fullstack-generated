@@ -117,7 +117,9 @@ A n d r o M D A  -  3.4 -Complete J2ee Stack (Hibernate , Spring , Rest)
             builds all modules and skips all automatic tests (i.e. surefire expected/actual)
 
 
-
+   <br>
+<img  src="https://github.com/ayman-elgharabawy/Andromda-Hibernate-ejb-spring-rest-fullstack-/blob/master/Diagram1.jpeg?raw=true" />
+<br>
 
 
         %> mvn -f core/pom.xml org.andromda.maven.plugins:andromdapp-maven-plugin:schema -Dtasks=drop,create
@@ -129,3 +131,23 @@ A n d r o M D A  -  3.4 -Complete J2ee Stack (Hibernate , Spring , Rest)
 How to Deploy 
 
 Copy the war file vf-oubl-webservice.war under  D:\PAG\PAG-OUBL\webservice\target and insert it under apache/webapp 
+
+
+Test the application
+
+Generate dummy data
+INSERT INTO `item` VALUES (1,'T-Section','1234','description 1','1'),(2,'I-Section','123','description 2','1');
+
+Using rest client
+Test the  url  http://localhost:8080/vf-oubl-webservice/services/InventoryService/getallitems usi ng GET
+the result will be 
+{"anyType":{"ItemVO":[{"id":1,"name":"test"},{"id":2,"name":"sdf"}]}}
+ 
+
+Notes:
+
+-In Modeling the webservice make the name of webservice class is the same of base url
+    <br>
+<img  src="https://github.com/ayman-elgharabawy/Andromda-Hibernate-ejb-spring-rest-fullstack-/blob/master/webservice.jpeg?raw=true" />
+<br>
+Make sure the name of the webservice class is the same name of the anromda_REST_path and case sensitive
