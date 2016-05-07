@@ -3,8 +3,9 @@
     A n d r o M D A  -  3.4 -Complete J2ee Stack (Hibernate , Spring , Rest)
 
    
-    ![alt tag](https://github.com/ayman-elgharabawy/Andromda-Hibernate-ejb-spring-rest-fullstack-/blob/master/diagram1.jpg?raw=true "Complete j2ee Stack")
+    ![alt tag](https://github.com/ayman-elgharabawy/Andromda-Hibernate-ejb-spring-rest-fullstack-/blob/master/diagram1.jpg?raw=true)
     ![alt text](https://github.com/ayman-elgharabawy/Andromda-Hibernate-ejb-spring-rest-fullstack-/blob/master/diagram1.jpg?raw=true "Complete j2ee Stack")
+![stack Overflow](http://lmsotfy.com/so.png)
 
     Magic Draw 11.5 (or above) is supported via its 'Export to EMF-UML2' feature. You'll notice
     that the andromda.xml is already configured to load these exported files. It expects
