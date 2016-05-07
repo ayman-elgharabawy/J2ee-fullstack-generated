@@ -112,7 +112,7 @@ A n d r o M D A  -  3.4 -Complete J2ee Stack (Hibernate , Spring , Rest)
             builds all modules and updates the .project and .classpath files (Eclipse project information).
             Must be used after dependency changes.
 
-        %> mvn -Dmaven.test.skip=true
+        %> mvn install -Dmaven.test.skip=true
 
             builds all modules and skips all automatic tests (i.e. surefire expected/actual)
 
